@@ -20,6 +20,7 @@
 
 ### Guideline para refatoração
 
+### Exemplos
 * Entrangulamento
 * Log de acesso
 * Decomposição por objetos.
