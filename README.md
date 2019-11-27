@@ -6,11 +6,19 @@
 
 ## Requisitos para refatorar
 
-Será composto por níveis de *Indispensável* a *Descartável*, são eles:
+Os requisitos serão mapeados por níveis de importância para a refatoração de *Indispensável* a *Descartável*, são eles:
+
 * **Indispensável**
+Não é possível refatorar de maneira efetiva sem esse requisito.
+
 * **Altamente recomendável**
+Sem o requisito, é passível de gerar baixa performance, entrega com menor valor, etc...
+
 * **Recomendável**
+O requisito pode dar apoio em decisão ou gerar dados, mas é possível de ter uma entrega satisfatória sem ele.
+
 * **Descartável**
+Esse requisito não faz sentido para a refatoração, avalie 2 vezes antes de utilizar.
 
 ## Níveis de refatoração
 
