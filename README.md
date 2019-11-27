@@ -6,6 +6,12 @@
 
 ## Requisitos para refatorar
 
+Será composto por níveis de *Indispensável* a *Descartável*, são eles:
+* **Indispensável**
+* **Altamente recomendável**
+* **Recomendável**
+* **Descartável**
+
 ## Níveis de refatoração
 
 ### Pequeno
