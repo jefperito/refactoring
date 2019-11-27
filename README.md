@@ -34,8 +34,15 @@ Esse requisito não faz sentido para a refatoração, avalie 2 vezes antes de ut
 
 ### Guideline para refatoração
 
-### Exemplos
+### Exemplos de alto nível
 * Entrangulamento
 * Log de acesso
 * Decomposição por objetos.
 * Clean code
+
+### Exemplos de baixo nível (Abordar?)
+* Extração de método.
+* Extração constante.
+* Extração de classe.
+* Extração de variável.
+* Obsessão por tipos primitivos.
