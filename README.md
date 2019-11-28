@@ -26,6 +26,8 @@ Esse requisito não faz sentido para a refatoração, avalie 2 vezes antes de ut
 
 ### Pequeno
 
+O esforço de fazer é mínimo e leva poucos minutos para executar. Técnica de alto nível não é possível aplicar pois precisa de um custo razoável de análise, costuma não ser mais de 2 ou 3 técnicas, extrações de métodos, constantes, variáveis, renomear coisas, etc... tudo que encaixar no tempo para resolver em minutos. 
+
 ### Médio
 
 ### Grande
