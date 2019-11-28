@@ -2,6 +2,8 @@
 
 ## O que é refatoração
 
+Resumindo é a maneira de alterar a estrutura do código sem alterar o comportamento.
+
 ## Porque refatorar
 
 ## Requisitos para refatorar
