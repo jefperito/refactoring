@@ -32,6 +32,8 @@ Esse requisito não faz sentido para a refatoração, avalie 2 vezes antes de ut
 
 ### Dedicação a refatoração - Descartável
 
+Refatoração tem que estar no *modus operandi* da equipe, fazer parte do processo de baixo nível do trabalho, atrelado as tarefas do dia-a-dia como incluir novas funcionalidades ou trabalhar em algum bug; Ao se deparar com o código fora do padrão, sem testes, ou remover trade-offs que não fazem mais sentido, deve-se refatorar (lembre-se de realizar commits separado da tarefa, facilita a rastreabilidade e a separação de contexto). Se for visível que o esforço de deixá-lo limpo é maior que o tempo disponível, não se preocupe em finalizar o trabalho, deixe para resolver nas próximas tarefas que atingir o código.
+
 ### Avisar o gestor - Descartável
 
 ## Níveis de refatoração
