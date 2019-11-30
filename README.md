@@ -6,6 +6,9 @@ Resumindo é a maneira de alterar a estrutura do código sem alterar o comportam
 
 ## Porque refatorar
 
+Menos stress.
+Design simples.
+
 ## Requisitos para refatorar
 
 Os requisitos serão mapeados por níveis de importância para a refatoração de *Indispensável* a *Descartável*, são eles:
