@@ -40,6 +40,8 @@ O esforço de fazer é mínimo e leva poucos minutos para executar. Técnica de 
 
 ### Épico
 
+Refatorações do tipo épico costuma exigir esforço dedicado da equipe.
+
 ## Técnicas de refatoração
 
 ### Guideline para refatoração
