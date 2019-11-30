@@ -1,4 +1,4 @@
-# refactoring
+# Refactoring
 
 ## O que é refatoração
 
@@ -23,6 +23,8 @@ O requisito pode dar apoio em decisão ou gerar dados, mas é possível de ter u
 Esse requisito não faz sentido para a refatoração, avalie 2 vezes antes de utilizar.
 
 ### Testes automatizados - Indispensável
+
+### Ferramenta de análise estática - Altamente recomendável
 
 ### Integração contínua - Altamente recomendável
 
