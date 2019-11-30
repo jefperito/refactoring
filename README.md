@@ -24,6 +24,8 @@ Esse requisito não faz sentido para a refatoração, avalie 2 vezes antes de ut
 
 ### Testes automatizados - Indispensável
 
+Não tem como ter garantia sem testes automatizados, há muita coisa para perder para depender de testes manuais, além de que testes manuais são caros de executar e seres humanos são passíveis de diversas variáveis externas como problemas familiares, financeiros, etc... que podem degradar a qualidade do teste. Teste de unidade se encaixa muito bem pelo baixo nível de teste que se propõe além de ser extremamente barato de executá-lo, milhares de testes são executados em poucos segundos.
+
 ### Ferramenta controle de versionamento - Indispensável
 
 ### Ferramenta de análise estática - Altamente recomendável
