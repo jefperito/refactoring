@@ -26,7 +26,9 @@ Esse requisito não faz sentido para a refatoração, avalie 2 vezes antes de ut
 
 ## Níveis de refatoração
 
-O ideal é que refatoração seja sempre feito de maneira pequena, mesmo em grandes pedaços de código ruim ou arquitetura antiquada, usando técnica de *baby steps* como é feito no TDD. O código chegará no grau esperado através do tem po que aquela estrutura é visitada por um programador. Isso também é conhecido como **Regra do escoteiro** que diz que: *Deixe o local que visitou um pouco melhor que o encontrou*.
+O ideal é que refatoração seja sempre feito de maneira **pequena**/**média**, mesmo em grandes pedaços de código ruim ou arquitetura antiquada, usando técnica de *baby steps* como é feito no TDD. O código chegará no grau esperado através do tem po que aquela estrutura é visitada por um programador. Isso também é conhecido como **Regra do escoteiro** que diz que: *Deixe o local que visitou um pouco melhor que o encontrou*.
+
+Mas existem exceções devido a alguma estratégia da equipe em resolver um determinado problema, eu particularmente gosto de dividir os tamanhos de refatorações em 4 tipos.
 
 ### Pequeno
 
