@@ -22,25 +22,19 @@ O requisito pode dar apoio em decisão ou gerar dados, mas é possível de ter u
 * **Descartável**
 Esse requisito não faz sentido para a refatoração, avalie 2 vezes antes de utilizar.
 
-### Avisar o gestor - **Descartável**
+### Testes automatizados - Indispensável
+
+### Integração contínua - Altamente recomendável
+
+### Programação em par - Recomendável
+
+### Dedicação a refatoração - Descartável
+
+### Avisar o gestor - Descartável
 
 ## Níveis de refatoração
 
 O ideal é que refatoração seja sempre feito de maneira **pequena**/**média**, mesmo em grandes pedaços de código ruim ou arquitetura antiquada, usando técnica de *baby steps* como é feito no TDD. O código chegará no grau esperado através do tem po que aquela estrutura é visitada por um programador. Isso também é conhecido como **Regra do escoteiro** que diz que: *Deixe o local que visitou um pouco melhor que o encontrou*.
-
-Mas existem exceções devido a alguma estratégia da equipe em resolver um determinado problema, eu particularmente gosto de dividir os tamanhos de refatorações em 4 tipos.
-
-### Pequeno
-
-O esforço de fazer é mínimo e leva poucos minutos para executar. Técnica de alto nível não é possível aplicar pois precisa de um custo razoável de análise, costuma não ser mais de 2 ou 3 técnicas, extrações de métodos, constantes, variáveis, renomear coisas, etc... tudo que encaixar no tempo para resolver em minutos. 
-
-### Médio
-
-### Grande
-
-### Épico
-
-Refatorações do tipo épico costuma exigir esforço dedicado da equipe.
 
 ## Técnicas de refatoração
 
