@@ -24,6 +24,8 @@ Esse requisito não faz sentido para a refatoração, avalie 2 vezes antes de ut
 
 ### Testes automatizados - Indispensável
 
+### Ferramenta controle de versionamento - Indispensável
+
 ### Ferramenta de análise estática - Altamente recomendável
 
 ### Integração contínua - Altamente recomendável
@@ -35,6 +37,8 @@ Esse requisito não faz sentido para a refatoração, avalie 2 vezes antes de ut
 Refatoração tem que estar no *modus operandi* da equipe, fazer parte do processo de baixo nível do trabalho, atrelado as tarefas do dia-a-dia como incluir novas funcionalidades ou trabalhar em algum bug; Ao se deparar com o código fora do padrão, sem testes, ou remover trade-offs que não fazem mais sentido, deve-se refatorar (lembre-se de realizar commits separado da tarefa, facilita a rastreabilidade e a separação de contexto). Se for visível que o esforço de deixá-lo limpo é maior que o tempo disponível, não se preocupe em finalizar o trabalho, deixe para resolver nas próximas tarefas que atingir o código.
 
 ### Avisar o gestor - Descartável
+
+Não avisamos o gestor as estratégias que tomamos em usar algum design pattern específico ou se vamos utilizar composição ao invés de hierarquia entre classes, por que avisar sobre refatoração? Nosso trabalho é entregar produto de qualidade, e qualidade significa manter o código simples, testado, livre de bugs o máximo possível e atendendo as expectativas, caso ele ou ela esteja impedindo, no mínimo estará se comportando de maneira não profissional e amadora.
 
 ## Níveis de refatoração
 
