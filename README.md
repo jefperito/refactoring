@@ -22,7 +22,11 @@ O requisito pode dar apoio em decisão ou gerar dados, mas é possível de ter u
 * **Descartável**
 Esse requisito não faz sentido para a refatoração, avalie 2 vezes antes de utilizar.
 
+### Avisar o gestor - **Descartável**
+
 ## Níveis de refatoração
+
+O ideal é que refatoração seja sempre feito de maneira pequena, mesmo em grandes pedaços de código ruim ou arquitetura antiquada, usando técnica de *baby steps* como é feito no TDD. O código chegará no grau esperado através do tem po que aquela estrutura é visitada por um programador. Isso também é conhecido como **Regra do escoteiro** que diz que: *Deixe o local que visitou um pouco melhor que o encontrou*.
 
 ### Pequeno
 
