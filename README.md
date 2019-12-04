@@ -33,6 +33,8 @@ Não tem como ter garantia sem testes automatizados, há muita coisa para perder
 
 ### Ferramenta controle de versionamento - Indispensável
 
+CI/CD dá a confiança que o sistema continua funcionando mesmo com a limpeza sendo feita, você pode visualizar os passos da pipeline sendo executada, os testes automatizados e deploy nos ambientes de homologação/produção, mesmo caso esqueça de rodar os testes na máquina local, não tem como publicar uma nova versão sem passar todas as etapas sem erro, pois a deploy está automatizado e é o único ponto de publicação.
+
 ### Ferramenta de análise estática - Altamente recomendável
 
 ### Integração contínua - Altamente recomendável
