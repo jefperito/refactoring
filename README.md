@@ -7,7 +7,9 @@ Resumindo é a maneira de alterar a estrutura do código sem alterar o comportam
 ## Porque refatorar
 
 Menos stress.
-Design simples.
+Design simples e elegante.
+Tempo para focar em produto e não em bugs.
+Agilidade no entendimento do código.
 
 ## Requisitos para refatorar
 
