@@ -64,6 +64,7 @@ O ideal é que refatoração seja sempre feito de maneira **pequena**/**média**
 
 Estrangulamento, ou como já ouvi alguns dizendo morte por inanição para o mesmo objetivo, é uma técnica aconselhável para remover uma parte do sistema em detrimento de outra, seja por troca de tecnologia, seja pelo avançado estágio de podridão do código. Com ela também é possível a organização de bordas de módulos.
 
+* Feature toggle
 * Log de acesso
 * Decomposição por objetos.
 * Clean code
