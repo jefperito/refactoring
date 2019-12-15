@@ -69,6 +69,11 @@ Caso seja uma reescrita, é possível manter as duas versões rodando em paralel
 * Log de acesso
 * Decomposição por objetos.
 * Clean code
+* Ciclo por refatoração: refatora -> rodar testes -> caso verde: refatora -> caso vermelho: ctrl/cmd + z.
+* Entidades anêmicas.
+* Feature envy.
+* Na refatoração de método, ir no galho mais profundo pois precisa menos contexto e ir subindo. em outros casos pode precisar ler o método completo.
+* Ferramentas boas para refatorar.
 
 ### Exemplos de baixo nível (Abordar?)
 * Extração de método.
