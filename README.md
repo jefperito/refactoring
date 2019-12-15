@@ -7,9 +7,15 @@ Resumindo é a maneira de alterar a estrutura do código sem alterar o comportam
 ## Porque refatorar
 
 * Menos stress.
+* eliminar problemas de código legado.
 * Design simples e elegante.
 * Tempo para focar em produto e não em bugs.
 * Agilidade no entendimento do código.
+
+## O que é código legado.
+
+* Medo de alterar.
+* Falta de testes automatizados.
 
 ## Requisitos para refatorar
 
@@ -39,9 +45,13 @@ CI/CD dá a confiança que o sistema continua funcionando mesmo com a limpeza se
 
 Ferramentas ajudam no apoio a encontrar vulnerabilidades, code smells, cobertura de testes automatizados, checagem de padrão e entre outos; Atuando como revisores de código automatizado e gerando relatórios sobre o resultado da revisão. Essas ferramentas podem atuar integrado a IDE, editor de texto ou como uma etapa da esteira de código. Nessa última podendo atuar como guardião e impedindo a publicação caso alguma regra definida pela equipe é violada.
 
+Lembre-se que cobertura de código é uma ferramenta de apoio ao desenvolvimento e não uma métrica 
+
 ### Programação em par - Recomendável
 
 Programação em par ajuda na transmissão de conhecimento, na coletividade do código-fonte e na revisão de código feita durante o processo. Refatorar é uma prática que requer entendimento técnico de boas práticas, trade-offs que podem surgir e visão arquitetural para atender o produto no futuro, todas essas decisões ganham quando há troca de experiências entre os pareados. Não acredito que precisa ser pareado durante todo o ciclo de vida da refatoração, a pessoa que está a frente do desafio que precisa sentir a necessidade e do ganho do valor de ter outro desenvolvedor na empreitada.
+
+### Padrão para arquitetura de testes - Recomendável
 
 ### Dedicação a refatoração - Descartável
 
