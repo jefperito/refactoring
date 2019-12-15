@@ -45,7 +45,9 @@ CI/CD dá a confiança que o sistema continua funcionando mesmo com a limpeza se
 
 Ferramentas ajudam no apoio a encontrar vulnerabilidades, code smells, cobertura de testes automatizados, checagem de padrão e entre outos; Atuando como revisores de código automatizado e gerando relatórios sobre o resultado da revisão. Essas ferramentas podem atuar integrado a IDE, editor de texto ou como uma etapa da esteira de código. Nessa última podendo atuar como guardião e impedindo a publicação caso alguma regra definida pela equipe é violada.
 
-Lembre-se que cobertura de código é uma ferramenta de apoio ao desenvolvimento e não uma métrica 
+Lembre-se que cobertura de código é uma ferramenta de apoio ao desenvolvimento e não uma métrica de gerenciamento, 95% de cobertura de cõdigo significa software bem testado? livre de bugs? não necessariamente, é possível criar testes de unidade que passem pelas linhas descobertas sem que gere asserções adequadas. Caso seja "vendido" essa métrica para a gerência e ocorra um bug, é possível que a gerência pergunte: "Esse bug foi gerado nos 5% sem cobertura?" Qual seria a resposta? Caso seja verdadeiro, haverá uma pressão de adicionar cobertura nesses 5% mesmo que a equipe já tenha adicionado cobertura no bug que foi corrigido, locais virtualmentes inalcançáveis, getters e setters onde o valor é muito pequeno, precisem receber teste de unidade.
+
+Mas o pior caso é caso a resposta seja negativa, a métrica cai por terra, não haverá uma confiabilidade, já que havia testes na linha que apresentou o problema, apesar de que não foram bem escritos, a gerência colocará de escanteio.
 
 ### Programação em par - Recomendável
 
