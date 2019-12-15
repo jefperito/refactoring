@@ -43,6 +43,9 @@ CI/CD dá a confiança que o sistema continua funcionando mesmo com a limpeza se
 
 ### IDE - Indispensável
 
+IDEs modernas possuem diversas funcionalidades de refatoração como extração de estrutura: variável, método, classe, constante, etc..., buscar dependência, sugerir melhorias e warning, trabalho que fazendo manualmente podendo adicionar bug ao projeto, IDEs estáveis dá garantia que ao executar alguma ferramenta de refatoração, o comportamento não foi alterado e os testes continuam passando.
+Editores de texto como Sublime Text, Visual Studio, VIM, etc... não conheço se possui essas funcionalidades que executam com tanta confiabilidade, se você consegue chegar no mesmo nível de IDEs continue com o seu editor de texto, caso contrário, estude em utilizar uma IDE.
+
 ### Ferramenta de análise estática - Altamente recomendável
 
 Ferramentas ajudam no apoio a encontrar vulnerabilidades, code smells, cobertura de testes automatizados, checagem de padrão e entre outos; Atuando como revisores de código automatizado e gerando relatórios sobre o resultado da revisão. Essas ferramentas podem atuar integrado a IDE, editor de texto ou como uma etapa da esteira de código. Nessa última podendo atuar como guardião e impedindo a publicação caso alguma regra definida pela equipe é violada.
