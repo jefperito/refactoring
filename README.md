@@ -41,6 +41,8 @@ Não tem como ter garantia sem testes automatizados, há muita coisa para perder
 
 CI/CD dá a confiança que o sistema continua funcionando mesmo com a limpeza sendo feita, você pode visualizar os passos da pipeline sendo executada, os testes automatizados e deploy nos ambientes de homologação/produção, mesmo caso esqueça de rodar os testes na máquina local, não tem como publicar uma nova versão sem passar todas as etapas sem erro, pois a deploy está automatizado e é o único ponto de publicação.
 
+### IDE - Indispensável
+
 ### Ferramenta de análise estática - Altamente recomendável
 
 Ferramentas ajudam no apoio a encontrar vulnerabilidades, code smells, cobertura de testes automatizados, checagem de padrão e entre outos; Atuando como revisores de código automatizado e gerando relatórios sobre o resultado da revisão. Essas ferramentas podem atuar integrado a IDE, editor de texto ou como uma etapa da esteira de código. Nessa última podendo atuar como guardião e impedindo a publicação caso alguma regra definida pela equipe é violada.
@@ -66,6 +68,14 @@ Não avisamos o gestor as estratégias que tomamos em usar algum design pattern 
 ## Níveis de refatoração
 
 O ideal é que refatoração seja sempre feito de maneira **pequena**/**média**, mesmo em grandes pedaços de código ruim ou arquitetura antiquada, usando técnica de *baby steps* como é feito no TDD. O código chegará no grau esperado através do tem po que aquela estrutura é visitada por um programador. Isso também é conhecido como **Regra do escoteiro** que diz que: *Deixe o local que visitou um pouco melhor que o encontrou*.
+
+## Software totalmente legado
+* 1o passo é focar testes de unidade no core do sistema.
+* 2o passo no caminho principal da aplicação.
+* 3o camminhos de borda/periférico.
+
+Focar testes automatizados em abrangência e não em detalhes.
+Aumentar a suite de testes ao quebrar os grandes testes de unidade e especializá-los, com suporte de novos testes para outros galhos especialistas.
 
 ## Técnicas de refatoração
 
