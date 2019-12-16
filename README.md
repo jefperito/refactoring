@@ -19,7 +19,7 @@ Resumindo é a maneira de alterar a estrutura do código sem alterar o comportam
 
 ## Requisitos para refatorar
 
-Os requisitos serão mapeados por níveis de importância para a refatoração de *Indispensável* a *Descartável*, são eles:
+Os requisitos serão mapeados por níveis de importância para a refatoração de *Indispensável* a *Descartável*, esses níveis foram mapeados de acordo com a minha experiência, caso você não concorde com alguma classificação, não tem problema! Siga seu feeling profissional, segue a lista:
 
 * **Indispensável**
 Não é possível refatorar de maneira efetiva sem esse requisito.
