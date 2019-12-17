@@ -82,7 +82,7 @@ Aumentar a suite de testes ao quebrar os grandes testes de unidade e especializ�
 
 Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refatorações, haverá muita aprendizagem nessa jornada e não faça BDUF, não no inicio pelo menos.
 
-## Problemas que levam a refatoração
+## Estratégia de refatoração para problemas comuns
 
 ### Módulos altamente acoplados
 
@@ -92,7 +92,7 @@ Estrangulamento, ou como já ouvi alguns dizendo morte por inanição para o mes
 
 Caso seja uma reescrita, é possível manter as duas versões rodando em paralelo, intercambeando entre as versões em tempo de execução através de feature toggle, assim, poderá executar testes manuais e executar em cliente com alguma garantia de caso apareça algo inesperado, troque a chave para a utilização do módulo antigo.
 
---------
+---
 
 * Feature toggle
 * Log de acesso
