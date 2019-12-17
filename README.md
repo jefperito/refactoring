@@ -82,16 +82,20 @@ Aumentar a suite de testes ao quebrar os grandes testes de unidade e especializ�
 
 Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refatorações, haverá muita aprendizagem nessa jornada e não faça BDUF, não no inicio pelo menos.
 
-## Técnicas de refatoração
+## Problemas que levam a refatoração
 
 ### Guideline para refatoração
 
-### Exemplos de alto nível
+### Módulos altamente acoplados
+
 * Entrangulamento
 
 Estrangulamento, ou como já ouvi alguns dizendo morte por inanição para o mesmo objetivo, é uma técnica aconselhável para remover uma parte do sistema em detrimento de outra, seja por troca de tecnologia, seja pelo avançado estágio de podridão do código. Com ela também é possível a organização de bordas de módulos.
 
 Caso seja uma reescrita, é possível manter as duas versões rodando em paralelo, intercambeando entre as versões em tempo de execução através de feature toggle, assim, poderá executar testes manuais e executar em cliente com alguma garantia de caso apareça algo inesperado, troque a chave para a utilização do módulo antigo.
+
+--------
+
 * Feature toggle
 * Log de acesso
 * Decomposição por objetos.
