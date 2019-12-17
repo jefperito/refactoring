@@ -77,6 +77,7 @@ Equipes que tem baixa experiência podem focar em atingir metas quantificativas 
 
 * Dependência entre estruturas
   * Design structure matrix (DSM).
+  * "Martin’s metrics"
 
 * Complexidade de algoritmo
   * Cyclomatic complexity.
