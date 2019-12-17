@@ -84,11 +84,9 @@ Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refator
 
 ## Problemas que levam a refatoração
 
-### Guideline para refatoração
-
 ### Módulos altamente acoplados
 
-* Entrangulamento
+* Façade
 
 Estrangulamento, ou como já ouvi alguns dizendo morte por inanição para o mesmo objetivo, é uma técnica aconselhável para remover uma parte do sistema em detrimento de outra, seja por troca de tecnologia, seja pelo avançado estágio de podridão do código. Com ela também é possível a organização de bordas de módulos.
 
