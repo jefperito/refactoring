@@ -73,7 +73,7 @@ Não avisamos o gestor as estratégias que tomamos em usar algum design pattern 
 Análise estática para gerar insights.
 Equipes que tem baixa experiência podem focar em atingir metas quantificativas (obtidos através de ferramentas que geram métricas como violação de regras e padrões), essas mesmas ferramentas apoiam a equipe na evolução sendo um guia para um melhor software. Metas qualificativas como muitas técnicas do clean code, possui um grau de complexidade maior de análise, ferramentas tem maior dificuldade em suportar e precisa um pouco mais de experiência do desenvolvedor em código limpo e a capacidade de fazer trade offs em decisões que serão tomadas.
 
-### Medições de código para problemas comuns
+### Medições de código
 
 * Dependência entre estruturas.
   * Design structure matrix (DSM).
@@ -97,7 +97,7 @@ Aumentar a suite de testes ao quebrar os grandes testes de unidade e especializ�
 
 Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refatorações, haverá muita aprendizagem nessa jornada e não faça BDUF, não no inicio pelo menos.
 
-## Estratégia de refatoração para problemas comuns
+## Estratégia de refatoração
 
 ### Módulos altamente acoplados
 
