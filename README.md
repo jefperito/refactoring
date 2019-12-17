@@ -73,7 +73,16 @@ Não avisamos o gestor as estratégias que tomamos em usar algum design pattern 
 Análise estática para gerar insights.
 Equipes que tem baixa experiência podem focar em atingir metas quantificativas (obtidos através de ferramentas que geram métricas como violação de regras e padrões), essas mesmas ferramentas apoiam a equipe na evolução sendo um guia para um melhor software. Metas qualificativas como muitas técnicas do clean code, possui um grau de complexidade maior de análise, ferramentas tem maior dificuldade em suportar e precisa um pouco mais de experiência do desenvolvedor em código limpo e a capacidade de fazer trade offs em decisões que serão tomadas.
 
-## Níveis de refatoração
+### Medições de código para problemas comuns
+
+* Dependência entre estruturas
+  * Design structure matrix (DSM).
+
+* Complexidade de algoritmo
+  * Cyclomatic complexity.
+
+
+## Níveis de refatoração (Rever isso)
 
 O ideal é que refatoração seja sempre feito de maneira **pequena**/**média**, mesmo em grandes pedaços de código ruim ou arquitetura antiquada, usando técnica de *baby steps* como é feito no TDD. O código chegará no grau esperado através do tem po que aquela estrutura é visitada por um programador. Isso também é conhecido como **Regra do escoteiro** que diz que: *Deixe o local que visitou um pouco melhor que o encontrou*.
 
