@@ -103,7 +103,7 @@ Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refator
 
 * Façade
 
-Façade é um design pattern que significa em criar uma interface que simplifica e padroniza a comunicação entre os componentes sob o façade e o mundo externo. Isso possibilita uma serie de vantagens como único ponto de acesso (quando isolado), esconde complexidade
+Façade é um design pattern que significa em criar uma interface que simplifica e padroniza a comunicação entre os componentes sob o façade e o mundo externo. Isso possibilita uma serie de vantagens como único ponto de acesso (quando isolado), esconde complexidade, esconde componentes que não precisam expor ao cliente e facilita a configuração na utilização.
 
 Estrangulamento, ou como já ouvi alguns dizendo morte por inanição para o mesmo objetivo, é uma técnica aconselhável para remover uma parte do sistema em detrimento de outra, seja por troca de tecnologia, seja pelo avançado estágio de podridão do código. Com ela também é possível a organização de bordas de módulos.
 
