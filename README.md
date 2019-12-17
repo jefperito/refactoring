@@ -103,6 +103,8 @@ Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refator
 
 * Façade
 
+Façade é um design pattern que significa em criar uma interface que simplifica e padroniza a comunicação entre os componentes sob o façade e o mundo externo. Isso possibilita uma serie de vantagens como único ponto de acesso (quando isolado), esconde complexidade
+
 Estrangulamento, ou como já ouvi alguns dizendo morte por inanição para o mesmo objetivo, é uma técnica aconselhável para remover uma parte do sistema em detrimento de outra, seja por troca de tecnologia, seja pelo avançado estágio de podridão do código. Com ela também é possível a organização de bordas de módulos.
 
 Caso seja uma reescrita, é possível manter as duas versões rodando em paralelo, intercambeando entre as versões em tempo de execução através de feature toggle, assim, poderá executar testes manuais e executar em cliente com alguma garantia de caso apareça algo inesperado, troque a chave para a utilização do módulo antigo.
