@@ -75,11 +75,11 @@ Equipes que tem baixa experiência podem focar em atingir metas quantificativas 
 
 ### Medições de código para problemas comuns
 
-* Dependência entre estruturas
+* Dependência entre estruturas.
   * Design structure matrix (DSM).
-  * "Martin’s metrics"
+  * "Martin’s metrics".
 
-* Complexidade de algoritmo
+* Complexidade de algoritmo.
   * Cyclomatic complexity.
 
 
