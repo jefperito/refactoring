@@ -70,8 +70,14 @@ Não avisamos o gestor as estratégias que tomamos em usar algum design pattern 
 
 ## Antes de refatorar
 
+* Na refatoração de método, ir no galho mais profundo pois precisa menos contexto e ir subindo. em outros casos pode precisar ler o método completo.
+* Ferramentas boas para refatorar.
+
 Análise estática para gerar insights.
 Equipes que tem baixa experiência podem focar em atingir metas quantificativas (obtidos através de ferramentas que geram métricas como violação de regras e padrões), essas mesmas ferramentas apoiam a equipe na evolução sendo um guia para um melhor software. Metas qualificativas como muitas técnicas do clean code, possui um grau de complexidade maior de análise, ferramentas tem maior dificuldade em suportar e precisa um pouco mais de experiência do desenvolvedor em código limpo e a capacidade de fazer trade offs em decisões que serão tomadas.
+
+* Ciclo por refatoração: refatora -> rodar testes -> caso verde: refatora -> caso vermelho: ctrl/cmd + z.
+
 
 ### Medições de código
 
@@ -99,6 +105,10 @@ Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refator
 
 ## Estratégia de refatoração
 
+Estratégias adotadas para problemas recorrentes, seguindo por um problema definido e técnicas para resolvê-lo, porém existe algumas técnicas "genéricas" que pode/deve ser aplicada para qualquer tipo de problemas como:
+
+* Clean code
+
 ### Módulos altamente acoplados
 
 * Façade
@@ -109,17 +119,19 @@ Estrangulamento, ou como já ouvi alguns dizendo morte por inanição para o mes
 
 Caso seja uma reescrita, é possível manter as duas versões rodando em paralelo, intercambeando entre as versões em tempo de execução através de feature toggle, assim, poderá executar testes manuais e executar em cliente com alguma garantia de caso apareça algo inesperado, troque a chave para a utilização do módulo antigo.
 
+### Complexidade de classes
+
+* SRP
+* Decomposição por objetos.
+
+### Feature envy/Entidades anêmicas
+
+* Encapsulamento.
+
 ---
 
-* Feature toggle
-* Log de acesso
-* Decomposição por objetos.
-* Clean code
-* Ciclo por refatoração: refatora -> rodar testes -> caso verde: refatora -> caso vermelho: ctrl/cmd + z.
-* Entidades anêmicas.
-* Feature envy.
-* Na refatoração de método, ir no galho mais profundo pois precisa menos contexto e ir subindo. em outros casos pode precisar ler o método completo.
-* Ferramentas boas para refatorar.
+* Feature toggle (talvez não precise, apenas para novas funcionalidades e reescrita).
+* Log de acesso (talvez não precise, apenas para monitoramento).
 
 ### Exemplos de baixo nível (Abordar?)
 * Extração de método.
