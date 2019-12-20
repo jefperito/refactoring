@@ -133,7 +133,7 @@ Feature envy e entidades anêmicas tem problemas similares, apenas em locais dif
 Eg. Imagine uma entidade profissional que possui apenas atributos e seus métodos de encapsulamento desses atributos, isso é conhecido como entidade anêmica, anêmica de **lógica de domínio**! Quando ela não controla e conhece o seu próprio comportamento e são outras classes ou funções que o fazem. Ao invés de eu perguntar para profissional se o seu cargo é um cargo de diretoria, preciso carregar um serviço (ProfissionalService como exemplo) ou qualquer outro tipo de estrutura de uma camada que não seja de domínio. Os pontos negativos desse problema é lógica de domínio espalhada em camadas fora do domínio, alto acoplamento: caso precise utilizar uma entidade, terá que carregar todo os serviços em volta dessa entidade e o pior pode acontecer, pode acabar duplicando lógica de domínio caso acabe não encontrando algo que já foi implementando julgando que não exista.
 No caso de feature envy o problema é parecido, é possível identificar quando uma classe X acaba executando diversos métodos de uma classe Y para obter um determinado resultado, todas as essas operações a classe Y poderia abstrair e a classe X apenas perguntaria pelo resultado. Mais informações sobre feature envy nesses links: <Links> e anemic entities nesses links: <links>
  
-Para resolver esses problemas basta movendo métodos para as classes que é responsável.
+Para resolver esses problemas basta mover ou criar métodos para as classes que deve ser responsável pela lógica.
 
 ---
 
