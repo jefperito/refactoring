@@ -128,6 +128,7 @@ Caso seja uma reescrita, é possível manter as duas versões rodando em paralel
 
 * Encapsulamento.
 
+Feature envy e entidades anêmicas tem problemas similares, apenas em locais diferente, enquanto entidade anêmica se concentra problema no domínio do sistema, feature envy é mais focado em todo o resto.
 ---
 
 * Feature toggle (talvez não precise, apenas para novas funcionalidades e reescrita).
