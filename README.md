@@ -91,6 +91,7 @@ Equipes que tem baixa experiência podem focar em atingir metas quantificativas 
 
 * Complexidade de algoritmo.
   * Cyclomatic complexity.
+  * Cognitive Complexity.
 
 
 ## Níveis de refatoração (Rever isso)
