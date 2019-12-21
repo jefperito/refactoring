@@ -1,6 +1,6 @@
 # Refactoring
 
-Esse é um material resultante de uma compilação de minhas experiências, livros, apresentações e blogs de gurus da área de desenvolvimento como [Sandro Mancuso](https://twitter.com/sandromancuso), [Uncle Bob Martin](https://twitter.com/unclebobmartin), [Martin Fowler](https://twitter.com/martinfowler) e [Elliotte Harold](https://twitter.com/elharo).
+Esse é um material resultante de uma compilação de minhas experiências, livros, apresentações e blogs de gurus da área de desenvolvimento como [Sandro Mancuso](https://twitter.com/sandromancuso), [Uncle Bob Martin](https://twitter.com/unclebobmartin), [Martin Fowler](https://twitter.com/martinfowler), [Elliotte Harold](https://twitter.com/elharo) e [Michael Feathers](https://twitter.com/mfeathers).
 
 ## O que é refatoração
 
