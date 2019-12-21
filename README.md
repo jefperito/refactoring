@@ -90,8 +90,8 @@ Equipes que tem baixa experiência podem focar em atingir metas quantificativas 
   * "Martin’s metrics".
 
 * Complexidade de algoritmo.
-  * Cyclomatic complexity.
-  * Cognitive Complexity.
+  * Cyclomatic complexity. (Grau de complexidade)
+  * Cognitive Complexity. (Grau de dificuldade de ler e entender o código)
 
 
 ## Níveis de refatoração (Rever isso)
