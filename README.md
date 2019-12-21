@@ -1,5 +1,7 @@
 # Refactoring
 
+Esse é um material resultante de uma compilação de minhas experiências, livros, apresentações e blogs de gurus da área de desenvolvimento como [Sandro Mancuso](https://twitter.com/sandromancuso), [Uncle Bob Martin](https://twitter.com/unclebobmartin), [Martin Fowler](https://twitter.com/martinfowler) e [Elliotte Harold](https://twitter.com/elharo).
+
 ## O que é refatoração
 
 Resumindo é a maneira de alterar a estrutura do código sem alterar o comportamento. Quem não gosta de uma casa limpa e organizada? Viver em um ambiente sujo e bagunçado causa stress, não achamos as coisas que gostariamos e vergonha de trazer alguém para tomar um café. Assim tem que ser com o nosso trabalho: limpo e organizado. Trabalhar com código fonte que é bagunçado e sujo nos causa efeitos parecidos como no exemplo acima. Só que com alguns agravantes, nosso dinheiro depende disso, a empresa depende disso, os nossos clientes dependem disso. Bagunça não encontramos as coisas fáceis, bugs se escondem no meio da sujeira que ficam difíceis de encontrar mesmo depois de inspecionar por horas (debugging) no meio do caos.
