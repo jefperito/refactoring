@@ -4,7 +4,7 @@ Esse é um material resultante de uma compilação de minhas experiências sobre
 O objetivo é mapear técnicas para lidar em todos os estágios da refatoração, desde antes de começar a refatorar, até a etapa pós entrega do código. Não é a missão de explorar profundamente as técnicas definidas aqui, existem materiais que serão linkados que fazem com muito mais detalhamento, julgo que este documento ajudará a quem está iniciando e quer conhecer para ter um conhecimento razoável.
 Sinta-se livre para contribuir com esse material.
 
-* [O que é refatoração](#o-que-e-refatoracao)
+* [O que é refatoração](#o-que-é-refatoração)
 * [Porque refatorar](#porque-refatorar)
 * [O que é código legado](#o-que-é-código-legado)
 * [Requisitos para refatorar](#requisitos-para-refatorar)
