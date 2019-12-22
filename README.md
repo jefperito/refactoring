@@ -8,7 +8,8 @@ Sinta-se livre para contribuir com esse material.
 * [Porque refatorar](#porque-refatorar)
 * [O que é código legado](#o-que-é-código-legado)
 * [Requisitos para refatorar](#requisitos-para-refatorar)
- * [Testes automatizados](#testes-automatizados)
+* [Antes de refatorar](#antes-de-refatorar)
+    * [Medições de código](#medições-de-código)
 
 ## O que é refatoração
 
