@@ -6,7 +6,7 @@ Sinta-se livre para contribuir com esse material.
 
 * [O que é refatoração](#o-que-e-refatoracao)
 * [Porque refatorar](#porque-refatorar)
-* [O que é código legado](#o-que-e-codigo-legado)
+* [O que é código legado](#o-que-é-código-legado)
 * [Requisitos para refatorar](#requisitos-para-refatorar)
  * [Testes automatizados](#testes-automatizados)
 
