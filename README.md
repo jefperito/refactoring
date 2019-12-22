@@ -4,6 +4,9 @@ Esse é um material resultante de uma compilação de minhas experiências sobre
 O objetivo é mapear técnicas para lidar em todos os estágios da refatoração, desde antes de começar a refatorar, até a etapa pós entrega do código. Não é a missão de explorar profundamente as técnicas definidas aqui, existem materiais que serão linkados que fazem com muito mais detalhamento, julgo que este documento ajudará a quem está iniciando e quer conhecer para ter um conhecimento razoável.
 Sinta-se livre para contribuir com esse material.
 
+* [O que é refatoração](#o-que-e-refatoracao)
+* [Porque refatorar](#porque-refatorar)
+
 ## O que é refatoração
 
 Resumindo é a maneira de alterar a estrutura do código sem alterar o comportamento. Quem não gosta de uma casa limpa e organizada? Viver em um ambiente sujo e bagunçado causa stress, não achamos as coisas que gostariamos e vergonha de trazer alguém para tomar um café. Assim tem que ser com o nosso trabalho: limpo e organizado. Trabalhar com código fonte que é bagunçado e sujo nos causa efeitos parecidos como no exemplo acima. Só que com alguns agravantes, nosso dinheiro depende disso, a empresa depende disso, os nossos clientes dependem disso. Bagunça não encontramos as coisas fáceis, bugs se escondem no meio da sujeira que ficam difíceis de encontrar mesmo depois de inspecionar por horas (debugging) no meio do caos.
