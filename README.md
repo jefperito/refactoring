@@ -17,11 +17,14 @@ Resumindo é a maneira de alterar a estrutura do código sem alterar o comportam
 
 ## Porque refatorar
 
+Alguns pontos sobre os benefícios de refatorar:
 * Menos stress.
-* eliminar problemas de código legado.
+* Eliminar problemas de código legado.
 * Design simples e elegante.
 * Tempo para focar em produto e não em bugs.
 * Agilidade no entendimento do código.
+
+As vantagens são realmente muito atraentes, os pontos acima nos dá velocidade de resposta, facilidade na leitura devido a expressividade do código fonte, tempo para experimentar novas soluções e paz de espírito. Empresa não precisa gastar dinheiro com débito técnico e uma generosa lista crescente de bugs.
 
 ## O que é código legado.
 
