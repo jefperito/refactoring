@@ -104,6 +104,9 @@ Use um chapéu por vez, não ambos ao mesmo tempo.
 
 Ao se deparar com código que não se adeque as métricas e padrões, primeiro refatore, depois sim, adicione a funcionalidade.
 
+* Revisão de código.
+* Programação pareada.
+
 ## TDD
 
 cíclo TDD: Escreva um teste que falhe -> faça o teste passar (chapéu adicione funcionalidade) -> refatore (chapéu refatoração).
