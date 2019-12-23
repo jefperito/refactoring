@@ -32,6 +32,7 @@ Os outros itens é basicamente ser um bom profissional, problemas em código aco
 
 * Medo de alterar.
 * Falta de testes automatizados.
+* código que possui carece de contexto, o contexto precisa estar na cabeça do desenvolvedor.
 
 ## Requisitos para refatorar
 
@@ -93,6 +94,10 @@ Análise estática para gerar insights.
 Equipes que tem baixa experiência podem focar em atingir metas quantificativas (obtidos através de ferramentas que geram métricas como violação de regras e padrões), essas mesmas ferramentas apoiam a equipe na evolução sendo um guia para um melhor software. Metas qualificativas como muitas técnicas do clean code, possui um grau de complexidade maior de análise, ferramentas tem maior dificuldade em suportar e precisa um pouco mais de experiência do desenvolvedor em código limpo e a capacidade de fazer trade offs em decisões que serão tomadas.
 
 * Ciclo por refatoração: refatora -> rodar testes -> caso verde: refatora -> caso vermelho: ctrl/cmd + z.
+
+## Dia-a-dia
+
+Ao se deparar com código que não se adeque as métricas e padrões, primeiro refatore, , depois sim, adicione a funcionalidade.
 
 ### Medições de código
 
