@@ -32,10 +32,7 @@ Os outros itens é basicamente ser um bom profissional, problemas em código aco
 
 Adicionar um novo código lhe coloca medo de adicionar bug? Pode ser um grande alerta de que você se deparou com código legado, o medo ocorre porque a garantia é baixa, a confiabilidade na integridade é baixa, irá ter que confiar em testes manuais ou testes automatizados furados que existem apenas para cobrir cobertura de código. Muitos definem que código legado é código sem teste automatizado, eu particularmente prefiro a abordagem do Uncle bob e Elliotte Rusty Harold, que dizem que o medo é o indício de código legado, é algo mais primário que nos frea e falta coragem de encarar o código que se deparamos.
 
-* Falta de testes automatizados.
-
-
-* código que carece de contexto, o contexto precisa estar na cabeça do desenvolvedor.
+Pessoas também defendem que código de pouca expressividade, que carece de contexto, que o desenvolvedor precisa montá-lo em sua cabeça  para entender o que ele quer dizer, é codigo legado. Para possuir esse domínio precisa de tempo de casa, desenvolvedores novos na equipe sempre precisam de desenvolvedores antigos para desvendá-lo.
 
 ## Requisitos para refatorar
 
