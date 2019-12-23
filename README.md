@@ -24,7 +24,9 @@ Alguns pontos sobre os benefícios de refatorar:
 * Tempo para focar em produto e não em bugs.
 * Agilidade no entendimento do código.
 
-As vantagens são realmente muito atraentes, os pontos acima nos dá velocidade de resposta, facilidade na leitura devido a expressividade do código fonte, tempo para experimentar novas soluções e paz de espírito. Empresa não precisa gastar dinheiro com débito técnico e uma generosa lista crescente de bugs.
+As vantagens são realmente muito atraentes, os pontos acima nos dá velocidade de resposta, facilidade na leitura devido a expressividade do código fonte, tempo para experimentar novas soluções e paz de espírito. 
+Mas nada supera: economia. Quer ir rápido? código legível, clientes pagando por lentidão em adicionar funcionalidade, criação de bugs ou cliente pagando realmente por novas funcionalidades? Equipes dando resolvendo pilhas e mais pilhas de bugs ou gastando esforços em evolução da arquitetura e funcionalidades?
+Os outros itens é basicamente ser um bom profissional, problemas em código acontece, pressão externa acontece, mas há maneiras de amenizar que não cabe a esse documento discutir.
 
 ## O que é código legado.
 
