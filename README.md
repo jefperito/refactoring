@@ -25,13 +25,16 @@ Alguns pontos sobre os benefícios de refatorar:
 * Agilidade no entendimento do código.
 
 As vantagens são realmente muito atraentes, os pontos acima nos dá velocidade de resposta, facilidade na leitura devido a expressividade do código fonte, tempo para experimentar novas soluções e paz de espírito. 
-Mas nada supera: economia. Quer ir rápido? código legível, clientes pagando por lentidão em adicionar funcionalidade, criação de bugs ou cliente pagando realmente por novas funcionalidades? Equipes dando resolvendo pilhas e mais pilhas de bugs ou gastando esforços em evolução da arquitetura e funcionalidades?
+Mas nada supera uma palavra: economia. Quer ir rápido sendo barato? código legível, clientes pagando por lentidão em adicionar funcionalidade, criação de bugs ou cliente pagando realmente por novas funcionalidades? Equipes resolvendo pilhas e mais pilhas de bugs ou gastando esforços em evolução da arquitetura e funcionalidades?
 Os outros itens é basicamente ser um bom profissional, problemas em código acontece, pressão externa acontece, mas há maneiras de amenizar que não cabe a esse documento discutir.
 
 ## O que é código legado.
 
-* Medo de alterar.
+Adicionar um novo código lhe coloca medo de adicionar bug? Pode ser um grande alerta de que você se deparou com código legado, o medo ocorre porque a garantia é baixa, a confiabilidade na integridade é baixa, irá ter que confiar em testes manuais ou testes automatizados furados que existem apenas para cobrir cobertura de código. Muitos definem que código legado é código sem teste automatizado, eu particularmente prefiro a abordagem do Uncle bob e Elliotte Rusty Harold, que dizem que o medo é o indício de código legado, é algo mais primário que nos frea e falta coragem de encarar o código que se deparamos.
+
 * Falta de testes automatizados.
+
+
 * código que carece de contexto, o contexto precisa estar na cabeça do desenvolvedor.
 
 ## Requisitos para refatorar
@@ -191,3 +194,8 @@ Para resolver esses problemas basta mover ou criar métodos para as classes que 
 * Extração de classe.
 * Extração de variável.
 * Obsessão por tipos primitivos.
+
+Fazer em 3 grandes blocos: 
+* antes de refatorar
+* durante a refatoração
+* limpeza e manutenção
