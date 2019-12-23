@@ -92,7 +92,6 @@ Equipes que tem baixa experiência podem focar em atingir metas quantificativas 
 
 * Ciclo por refatoração: refatora -> rodar testes -> caso verde: refatora -> caso vermelho: ctrl/cmd + z.
 
-
 ### Medições de código
 
 * Dependência entre estruturas.
@@ -103,6 +102,9 @@ Equipes que tem baixa experiência podem focar em atingir metas quantificativas 
   * Cyclomatic complexity. (Grau de complexidade)
   * Cognitive Complexity. (Grau de dificuldade de ler e entender o código)
 
+## TDD
+
+cíclo TDD: Escreva um teste que falhe -> faça o teste passar (chapéu adicione funcionalidade) -> refatore (chapéu adeque aos padrões).
 
 ## Níveis de refatoração (Rever isso)
 
