@@ -97,12 +97,7 @@ Equipes que tem baixa experiência podem focar em atingir metas quantificativas 
 
 "Vestir o chapéu" é uma expressão que significa agir com um determinado mindset, para se manter o foco deve-se manter dividir as tarefas, quando estiver adicionando uma funcionalidade, vista-se o chapéu de "adicionar funcionalidade", quando estiver refatorando, vista-se o chapéu "refatoração". O problema de fazer os dois ao mesmo tempo é a troca de contexto para realizar as duas tarefas ao mesmo tempo, o foco tem que ser dividido, problemas podem ocorrer aí, foco 100% para resolver um problema por vez, criar pequenos commits para cada mudança de chapéu pode ser bom para uma sensação de evolução em ambos os esforços e mantê-los separados.
 
-Use um chapéu por vez, não ambos ao mesmo tempo.
-
-* Chapéu de refatoração.
-* Chapéu de adicionar funcionalidade.
-
-## Durante a refatoração
+## Dia-a-dia
 
 Ao se deparar com código que não se adeque as métricas e padrões, primeiro refatore, depois sim, adicione a funcionalidade.
 
