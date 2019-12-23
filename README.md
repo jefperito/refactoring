@@ -106,7 +106,7 @@ Ao se deparar com código que não se adeque as métricas e padrões, primeiro r
 
 ## TDD
 
-cíclo TDD: Escreva um teste que falhe -> faça o teste passar (chapéu adicione funcionalidade) -> refatore (chapéu adeque aos padrões).
+cíclo TDD: Escreva um teste que falhe -> faça o teste passar (chapéu adicione funcionalidade) -> refatore (chapéu refatoração).
 
 ### Medições de código
 
