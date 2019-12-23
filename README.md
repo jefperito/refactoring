@@ -93,14 +93,14 @@ Não avisamos o gestor as estratégias que tomamos em usar algum design pattern 
 Análise estática para gerar insights.
 Equipes que tem baixa experiência podem focar em atingir metas quantificativas (obtidos através de ferramentas que geram métricas como violação de regras e padrões), essas mesmas ferramentas apoiam a equipe na evolução sendo um guia para um melhor software. Metas qualificativas como muitas técnicas do clean code, possui um grau de complexidade maior de análise, ferramentas tem maior dificuldade em suportar e precisa um pouco mais de experiência do desenvolvedor em código limpo e a capacidade de fazer trade offs em decisões que serão tomadas.
 
-## Vestir o chapéu
+### Vestir o chapéu
 
 Use um chapéu por vez, não ambos ao mesmo tempo.
 
 * Chapéu de refatoração.
 * Chapéu de adicionar funcionalidade.
 
-## Dia-a-dia
+## Durante a refatoração
 
 Ao se deparar com código que não se adeque as métricas e padrões, primeiro refatore, depois sim, adicione a funcionalidade.
 
