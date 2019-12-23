@@ -32,7 +32,7 @@ Os outros itens é basicamente ser um bom profissional, problemas em código aco
 
 * Medo de alterar.
 * Falta de testes automatizados.
-* código que possui carece de contexto, o contexto precisa estar na cabeça do desenvolvedor.
+* código que carece de contexto, o contexto precisa estar na cabeça do desenvolvedor.
 
 ## Requisitos para refatorar
 
