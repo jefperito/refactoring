@@ -173,7 +173,7 @@ Para resolver esses problemas basta mover ou criar métodos para as classes que 
 * [Testing and refactoring legacy code - Sandro Mancuso](https://www.youtube.com/watch?v=AUtrEYnm0ts)
 * [Unconditional Code - Michael Feathers](https://www.youtube.com/watch?v=AnZ0uTOerUI)
 * [Testing Legacy Code - Elliotte Rusty Harold](https://www.youtube.com/watch?v=cjxXv0eifhY)
-* [Workflows of Refactoring - Martin Fowler](https://www.youtube.com/watch?v=vqEg37e4Mkw)
+* Workflows of Refactoring - Martin Fowler: [video](https://www.youtube.com/watch?v=vqEg37e4Mkw) - [slide](https://martinfowler.com/articles/workflowsOfRefactoring/).
 
 ### Livros
 
