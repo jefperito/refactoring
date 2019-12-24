@@ -93,6 +93,17 @@ Não avisamos o gestor as estratégias que tomamos em usar algum design pattern 
 Análise estática para gerar insights.
 Equipes que tem baixa experiência podem focar em atingir metas quantificativas (obtidos através de ferramentas que geram métricas como violação de regras e padrões), essas mesmas ferramentas apoiam a equipe na evolução sendo um guia para um melhor software. Metas qualificativas como muitas técnicas do clean code, possui um grau de complexidade maior de análise, ferramentas tem maior dificuldade em suportar e precisa um pouco mais de experiência do desenvolvedor em código limpo e a capacidade de fazer trade offs em decisões que serão tomadas.
 
+### Tipos de refatoração
+
+Martin Fowler mapeou 5 tipos de refatoração:
+
+* TDD Refactoring
+* Litter-Pickup Refactoring
+* Comprehension Refactoring
+* Preparatory Refactoring
+* Planned Refactoring
+* Long-Term Refactoring
+
 ### Vestir o chapéu
 
 "Vestir o chapéu" é uma expressão que significa agir com um determinado mindset, para se manter o foco deve-se manter dividir as tarefas, quando estiver adicionando uma funcionalidade, vista-se o chapéu de "adicionar funcionalidade", quando estiver refatorando, vista-se o chapéu "refatoração". O problema de fazer os dois ao mesmo tempo é a troca de contexto para realizar as duas tarefas ao mesmo tempo, o foco tem que ser dividido, problemas podem ocorrer aí, foco 100% para resolver um problema por vez, criar pequenos commits para cada mudança de chapéu pode ser bom para uma sensação de evolução em ambos os esforços e mantê-los separados.
