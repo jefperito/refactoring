@@ -101,7 +101,11 @@ Equipes que tem baixa experiência podem focar em atingir metas quantificativas 
 
 ## TDD
 
+Test driven development ou TDD, não é uma técnica de refatoração, mas compõe na sua essência refatoração de código. Fazendo um resumo bastante superficial é a maneira de desenvolver sistemas escrevendo o teste primeiro e posteriormente o código de produção, os benefícios não vou abordar aqui porque foge do escopo de material, se encontra fácil em uma rápida pesquisa na internet. Vamos focar no seu ciclo, onde a refatoração ocorre.
+
 cíclo TDD: Escreva um teste que falhe -> faça o teste passar (chapéu adicione funcionalidade) -> refatore (chapéu refatoração).
+
+Os 3 ciclos são bem definidos, eles não devem invadir a responsabilidade um do outro, ao tiver na segunda etapa, deve-se escrever o coódigo suficiente para passar, aqui não devemos nos focar em refatorá-lo, não devemos usar o *chapéu da refatoração* (explicação logo abaixo) nessa etapa, como na terceira etapa não devemos em preocupar em adicionar mais funcionalidade, não é o foco, além de ferir o ciclo TDD pulando a etapa de escrever o teste primeiro.
 
 ### Tipos de refatoração
 
