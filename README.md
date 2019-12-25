@@ -193,6 +193,10 @@ Para resolver esses problemas basta mover ou criar métodos para as classes que 
 * Feature toggle (talvez não precise, apenas para novas funcionalidades e reescrita).
 * Log de acesso (talvez não precise, apenas para monitoramento).
 
+### Métrica
+
+* Code churn
+
 ### Exemplos de baixo nível (Abordar?)
 * Extração de método.
 * Extração constante.
