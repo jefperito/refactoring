@@ -118,6 +118,8 @@ Martin Fowler mapeou 5 tipos de refatoração:
 
 No dia-a-dia, resolvendo tarefas recorrentes podemos cair em código que não corresponde com a qualidade esperada (Litter-Pickup Refactoring) ou não é expressivo suficiente (*Comprehension Refactoring*), Martin Fowler chama essa oportunidade de refatoração de *opportunistic refactoring*, o fluxograma extraído do seu slide mostra podemos nos comportar para resolver esse problema: 
 
+![opportunistic refactoring](opportunistic_refactoring.png)
+
 * Revisão de código.
 * Programação pareada.
 
