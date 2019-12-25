@@ -99,6 +99,10 @@ Não avisamos o gestor as estratégias que tomamos em usar algum design pattern 
 Análise estática para gerar insights.
 Equipes que tem baixa experiência podem focar em atingir metas quantificativas (obtidos através de ferramentas que geram métricas como violação de regras e padrões), essas mesmas ferramentas apoiam a equipe na evolução sendo um guia para um melhor software. Metas qualificativas como muitas técnicas do clean code, possui um grau de complexidade maior de análise, ferramentas tem maior dificuldade em suportar e precisa um pouco mais de experiência do desenvolvedor em código limpo e a capacidade de fazer trade offs em decisões que serão tomadas.
 
+## TDD
+
+cíclo TDD: Escreva um teste que falhe -> faça o teste passar (chapéu adicione funcionalidade) -> refatore (chapéu refatoração).
+
 ### Tipos de refatoração
 
 Martin Fowler mapeou 5 tipos de refatoração:
@@ -116,16 +120,12 @@ Martin Fowler mapeou 5 tipos de refatoração:
 
 ## Dia-a-dia
 
-No dia-a-dia, resolvendo tarefas recorrentes podemos cair em código que não corresponde com a qualidade esperada (Litter-Pickup Refactoring) ou não é expressivo suficiente (*Comprehension Refactoring*), Martin Fowler chama essa oportunidade de refatoração de *opportunistic refactoring*, o fluxograma extraído do seu slide mostra podemos nos comportar para resolver esse problema: 
+No dia-a-dia, resolvendo tarefas recorrentes podemos cair em código que não corresponde com a qualidade esperada (Litter-Pickup Refactoring) ou não é expressivo suficiente (*Comprehension Refactoring*), Martin Fowler chama essa oportunidade de refatoração de *opportunistic refactoring*, o fluxograma extraído do seu slide mostra podemos nos comportar usando TDD e vestir o chapéu para resolver esse problema: 
 
 ![opportunistic refactoring](opportunistic_refactoring.png)
 
 * Revisão de código.
 * Programação pareada.
-
-## TDD
-
-cíclo TDD: Escreva um teste que falhe -> faça o teste passar (chapéu adicione funcionalidade) -> refatore (chapéu refatoração).
 
 ### Medições de código
 
