@@ -77,6 +77,10 @@ Programação em par ajuda na transmissão de conhecimento, na coletividade do c
 
 ### Padrão para arquitetura de testes - Recomendável
 
+Como o código de produção precisa de padrão para ter boa legibilidade, o código de teste também precisa pelo mesmo motivo. Padrão para criação de dublês de teste (mock, dummy, spy, fake, stub, outros...), configuração para execução do teste automatizado, builders para entidades, estrutura de um teste de unidade. Atualmente utilizo essa estrutura para criar meus testes java:
+
+Primeiro corpo do teste segue com a configuração necessária para executar o teste, seguido por um espaço em branco, após a execução da função sendo testada, seguido por um espaço em branco e suas asserções.
+
 ### Dedicação a refatoração - Descartável
 
 Refatoração tem que estar no *modus operandi* da equipe, fazer parte do processo de baixo nível do trabalho, atrelado as tarefas do dia-a-dia como incluir novas funcionalidades ou trabalhar em algum bug; Ao se deparar com o código fora do padrão, sem testes, ou remover trade-offs que não fazem mais sentido, deve-se refatorar (lembre-se de realizar commits separado da tarefa, facilita a rastreabilidade e a separação de contexto). Se for visível que o esforço de deixá-lo limpo é maior que o tempo disponível, não se preocupe em finalizar o trabalho, deixe para resolver nas próximas tarefas que atingir o código.
