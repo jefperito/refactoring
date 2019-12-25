@@ -116,7 +116,7 @@ Martin Fowler mapeou 5 tipos de refatoração:
 
 ## Dia-a-dia
 
-Ao se deparar com código que não se adeque as métricas e padrões, primeiro refatore, depois sim, adicione a funcionalidade.
+No dia-a-dia, resolvendo tarefas recorrentes podemos cair em código que não corresponde com a qualidade esperada (Litter-Pickup Refactoring) ou não é expressivo suficiente (*Comprehension Refactoring*), Martin Fowler chama essa oportunidade de refatoração de *opportunistic refactoring*, o fluxograma extraído do seu slide mostra podemos nos comportar para resolver esse problema: 
 
 * Revisão de código.
 * Programação pareada.
