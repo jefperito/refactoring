@@ -79,6 +79,8 @@ Programação em par ajuda na transmissão de conhecimento, na coletividade do c
 
 Como o código de produção precisa de padrão para ter boa legibilidade, o código de teste também precisa pelo mesmo motivo. Padrão para criação de dublês de teste (mock, dummy, spy, fake, stub, outros...), configuração para execução do teste automatizado, builders para entidades, estrutura de um teste de unidade. Atualmente utilizo essa estrutura para criar meus testes java:
 
+![exemplo 1](exemplo1.png)
+
 Primeiro corpo do teste segue com a configuração necessária para executar o teste, seguido por um espaço em branco, após a execução da função sendo testada, seguido por um espaço em branco e suas asserções.
 
 ### Dedicação a refatoração - Descartável
