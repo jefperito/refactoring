@@ -112,7 +112,13 @@ Os 3 ciclos são bem definidos, eles não devem invadir a responsabilidade um do
 Martin Fowler mapeou 5 tipos de refatoração:
 
 * TDD Refactoring
+
+Como apresentado acima, é a terceira etapa do ciclo do TDD, faz parte do processo de qualquer desenvolvedor que esteja aplicando TDD.
+
 * Litter-Pickup Refactoring
+
+Também conhecido como regra do escoteiro, **sempre deixe o local melhor que quando o visitou**, são refatorações que não são planejadas, decidimos utilizar quando encontramos algo ruim. A proposta não é corrigir todos os problemas, mas resolver alguns dentro de um determinado tempo que seja diluível na tarefa principal. Locais mais visitados são limpos com mais freqüencia e com o tempo os problemas tendem a desaparecer.
+
 * Comprehension Refactoring
 * Preparatory Refactoring
 * Planned Refactoring
@@ -140,6 +146,9 @@ No dia-a-dia, resolvendo tarefas recorrentes podemos cair em código que não co
 * Complexidade de algoritmo.
   * Cyclomatic complexity. (Grau de complexidade)
   * Cognitive Complexity. (Grau de dificuldade de ler e entender o código)
+  
+* Code smell
+   * Code churn
 
 
 ## Níveis de refatoração (Rever isso)
@@ -205,9 +214,6 @@ A solução costuma ser simples, para resolver esses problemas basta mover ou cr
 * Feature toggle (talvez não precise, apenas para novas funcionalidades e reescrita).
 * Log de acesso (talvez não precise, apenas para monitoramento).
 
-### Métrica
-
-* Code churn
 
 ### Exemplos de baixo nível (Abordar?)
 * Extração de método.
