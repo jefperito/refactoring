@@ -120,6 +120,9 @@ Como apresentado acima, é a terceira etapa do ciclo do TDD, faz parte do proces
 Também conhecido como regra do escoteiro, **sempre deixe o local melhor que quando o visitou**, são refatorações que não são planejadas, decidimos utilizar quando encontramos algo ruim. A proposta não é corrigir todos os problemas, mas resolver alguns dentro de um determinado tempo que seja diluível na tarefa principal. Locais mais visitados são limpos com mais freqüencia e com o tempo os problemas tendem a desaparecer.
 
 * Comprehension Refactoring
+
+Quando lemos assinatura de método, mas o código faz algo diferente ou a mais, variáveis que não sabemos o que significa, condições com inúmeras subcondições, etc... existe uma carga de energia gasta para entendimento; E nessas condições é necessário de um esforço extra, aplicamos comprehension refactoring quando queremos dar o real significado do que o código quer dizer, renomeamos métodos e variáveis, extraímos métodos e usamos nomes que fazem sentido, que o contexto esteja explícito e deixa explícito sua intenção ao invés de escondê-lo.
+
 * Preparatory Refactoring
 * Planned Refactoring
 * Long-Term Refactoring
