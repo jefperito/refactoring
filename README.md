@@ -107,6 +107,10 @@ cíclo TDD: Escreva um teste que falhe -> faça o teste passar (chapéu adicione
 
 Os 3 ciclos são bem definidos, eles não devem invadir a responsabilidade um do outro, ao tiver na segunda etapa, deve-se escrever o coódigo suficiente para passar, aqui não devemos nos focar em refatorá-lo, não devemos usar o *chapéu da refatoração* (explicação logo abaixo) nessa etapa, como na terceira etapa não devemos em preocupar em adicionar mais funcionalidade, não é o foco, além de ferir o ciclo TDD pulando a etapa de escrever o teste primeiro.
 
+### Vestir o chapéu
+
+"Vestir o chapéu" é uma expressão que significa agir com um determinado mindset, para se manter o foco deve-se manter dividir as tarefas, quando estiver adicionando uma funcionalidade, vista-se o chapéu de "adicionar funcionalidade", quando estiver refatorando, vista-se o chapéu "refatoração". O problema de fazer os dois ao mesmo tempo é a troca de contexto para realizar as duas tarefas ao mesmo tempo, o foco tem que ser dividido, problemas podem ocorrer aí, foco 100% para resolver um problema por vez, criar pequenos commits para cada mudança de chapéu pode ser bom para uma sensação de evolução em ambos os esforços e mantê-los separados.
+
 ### Tipos de refatoração
 
 Martin Fowler mapeou 5 tipos de refatoração:
@@ -124,12 +128,11 @@ Também conhecido como regra do escoteiro, **sempre deixe o local melhor que qua
 Quando lemos assinatura de método, mas o código faz algo diferente ou a mais, variáveis que não sabemos o que significa, condições com inúmeras subcondições, etc... existe uma carga de energia gasta para entendimento; E nessas condições é necessário de um esforço extra, aplicamos comprehension refactoring quando queremos dar o real significado do que o código quer dizer, renomeamos métodos e variáveis, extraímos métodos e usamos nomes que fazem sentido, que o contexto esteja explícito e deixa explícito sua intenção ao invés de escondê-lo.
 
 * Preparatory Refactoring
+
+O famoso *preparar o terreno*, necessário ao checar que o local que será adicionado a nova funcionalidade não a suportará de maneira ideal. Pode requerer algum tempo de planejamento. Para resolver isso usa-se o chapéu de refatoração, refatore até alcançar a qualidade desejável, então mude para o chapéu de adicionar a funcionalidade e continue com a tarefa.
+
 * Planned Refactoring
 * Long-Term Refactoring
-
-### Vestir o chapéu
-
-"Vestir o chapéu" é uma expressão que significa agir com um determinado mindset, para se manter o foco deve-se manter dividir as tarefas, quando estiver adicionando uma funcionalidade, vista-se o chapéu de "adicionar funcionalidade", quando estiver refatorando, vista-se o chapéu "refatoração". O problema de fazer os dois ao mesmo tempo é a troca de contexto para realizar as duas tarefas ao mesmo tempo, o foco tem que ser dividido, problemas podem ocorrer aí, foco 100% para resolver um problema por vez, criar pequenos commits para cada mudança de chapéu pode ser bom para uma sensação de evolução em ambos os esforços e mantê-los separados.
 
 ## Dia-a-dia
 
