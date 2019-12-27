@@ -222,9 +222,9 @@ A solução costuma ser simples, para resolver esses problemas basta mover ou cr
 
 ### Livros
 
-Refactoring: Improving the Design of Existing Code (2nd Edition) - Martin Fowler
-Clean code - Robert C. Martin (Uncle Bob)
-The Software Craftsman: Professionalism, Pragmatism, Pride - Sandro Mancuso
+* Refactoring: Improving the Design of Existing Code (2nd Edition) - Martin Fowler
+* Clean code - Robert C. Martin (Uncle Bob)
+* The Software Craftsman: Professionalism, Pragmatism, Pride - Sandro Mancuso
 
 ---
 
