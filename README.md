@@ -132,6 +132,9 @@ Quando lemos assinatura de método, mas o código faz algo diferente ou a mais, 
 O famoso *preparar o terreno*, necessário ao checar que o local que será adicionado a nova funcionalidade não a suportará de maneira ideal. Pode requerer algum tempo de planejamento. Para resolver isso usa-se o chapéu de refatoração, refatore até alcançar a qualidade desejável, então mude para o chapéu de adicionar a funcionalidade e continue com a tarefa.
 
 * Planned Refactoring
+
+São tarefas exclusivamente dedicadas a refatoração, essas tarefas ficam visíveis e concorrem com outras tarefas no quesito prioridade,  pessoas de produto podem achar que por causa da existência desse tipo de trabalho o software não está saindo com a qualidade necessária e podem influenciar no nível de prioridade.
+
 * Long-Term Refactoring
 
 ## Dia-a-dia
