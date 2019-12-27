@@ -111,6 +111,8 @@ Os 3 ciclos são bem definidos, eles não devem invadir a responsabilidade um do
 
 "Vestir o chapéu" é uma expressão que significa agir com um determinado mindset, para se manter o foco deve-se manter dividir as tarefas, quando estiver adicionando uma funcionalidade, vista-se o chapéu de "adicionar funcionalidade", quando estiver refatorando, vista-se o chapéu "refatoração". O problema de fazer os dois ao mesmo tempo é a troca de contexto para realizar as duas tarefas ao mesmo tempo, o foco tem que ser dividido, problemas podem ocorrer aí, foco 100% para resolver um problema por vez, criar pequenos commits para cada mudança de chapéu pode ser bom para uma sensação de evolução em ambos os esforços e mantê-los separados.
 
+![hats](hats.png)
+
 ### Tipos de refatoração
 
 Martin Fowler mapeou 5 tipos de refatoração:
