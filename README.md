@@ -137,6 +137,8 @@ São tarefas exclusivamente dedicadas a refatoração, essas tarefas ficam visí
 
 * Long-Term Refactoring
 
+Grandes refatorações que geram vários impactos no sistema, como alterar a comunicação entre módulos, mudança de arquitetura e tecnologia. Além de boas habilidades requeridas, forte comunicação entre a equipe evita dores de cabeça, enquanto a refatoração ocorre, funcionalidades ainda estão sendo escritas e precisa ser adaptável a futura realidade.
+
 ## Dia-a-dia
 
 No dia-a-dia, resolvendo tarefas recorrentes podemos cair em código que não corresponde com a qualidade esperada (Litter-Pickup Refactoring) ou não é expressivo suficiente (*Comprehension Refactoring*), Martin Fowler chama essa oportunidade de refatoração de *opportunistic refactoring*, o fluxograma extraído do seu slide mostra podemos nos comportar usando TDD e vestir o chapéu para resolver esse problema: 
