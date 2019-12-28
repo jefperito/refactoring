@@ -168,7 +168,18 @@ No dia-a-dia, resolvendo tarefas recorrentes podemos cair em código que não co
 
 O ideal é que refatoração seja sempre feito de maneira **pequena**/**média**, mesmo em grandes pedaços de código ruim ou arquitetura antiquada, usando técnica de *baby steps* como é feito no TDD. O código chegará no grau esperado através do tem po que aquela estrutura é visitada por um programador. Isso também é conhecido como **Regra do escoteiro** que diz que: *Deixe o local que visitou um pouco melhor que o encontrou*.
 
-## Software totalmente legado
+## Estratégia de refatoração
+
+Estratégias adotadas para problemas recorrentes, seguindo por um problema definido e técnicas para resolvê-lo, porém existe algumas técnicas "genéricas" que pode/deve ser aplicada para qualquer tipo de problemas como:
+
+* Clean code
+
+Clean code não é só aplicado em refatoração mas em qualquer etapa do desenvolvimento do código fonte, Uncle bob reuniu um conjunto de boas práticas na escrita de código no livro Clean Code, que a propósito deve ser lido por todos os desenvolvedores.
+
+### Software totalmente legado
+
+A origem de software big ball of mud pode ter diversas fontes: Nível técnico da equipe baixo, pressão, processos de desenvolvimento baixo. Não deve-se julgar as pessoas responsáveis por aquele código, apenas vivendo a época para sentir a cultura da empresa e habilidades dos profissionais para entender como chegou naquele resultado. Gastar energias ofendendo os pais da equipe que gerou não irá deixar o código limpo e livre de bugs, refatoração sim, é a maneira de lidar com o problema.
+
 * 1o passo é focar testes de unidade no core do sistema.
 * 2o passo no caminho principal da aplicação.
 * 3o camminhos de borda/periférico.
@@ -178,11 +189,6 @@ Aumentar a suite de testes ao quebrar os grandes testes de unidade e especializ�
 
 Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refatorações, haverá muita aprendizagem nessa jornada e não faça BDUF, não no inicio pelo menos.
 
-## Estratégia de refatoração
-
-Estratégias adotadas para problemas recorrentes, seguindo por um problema definido e técnicas para resolvê-lo, porém existe algumas técnicas "genéricas" que pode/deve ser aplicada para qualquer tipo de problemas como:
-
-* Clean code
 
 ### Módulos altamente acoplados
 
@@ -196,8 +202,7 @@ Caso seja uma reescrita, é possível manter as duas versões rodando em paralel
 
 ### Complexidade de classes
 
-* SRP
-* Decomposição por objetos.
+* SOLID.
 
 ### Feature envy/Entidades anêmicas
 
