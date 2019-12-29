@@ -185,20 +185,22 @@ A primeira ação seria checar se realmente há necessidade de refatorá-lo, se 
 O valor existe então ir para a segunda ação, pensar em qual linha de refatoração irá seguir:
 
 * Refatoração oportunistica (Litter-Pickup Refactoring + comprehension refatoring), 
-* Refatoração planejada (planned refactoring).
 * Refatoração a longo prazo (long-term refactoring).
 
-Em minha opinião entraria 1 variável para a decisão se tomar para refatoração oportunistica: domínio do sistema. Equipes que possuem o conhecimento do sistema costumam serem os mesmo que o desenvolvem, a decisão de refatorar nesse quesito certamente é uma mudança de paradigma em nível técnico ou cultura da empresa, que agora desejam colocar o software num próximo nível. Essa é a única realidade que eu vejo que refatoração oportunistica pode ser avaliado como uma abordagem melhor que as outras duas.
+Em minha opinião entraria 1 variável para a decisão se tomar para refatoração oportunistica: domínio do sistema. Equipes que possuem o conhecimento do sistema costumam serem os mesmo que o desenvolvem, a decisão de refatorar nesse quesito certamente é uma mudança de paradigma em nível técnico ou cultura da empresa, que agora desejam colocar o software num próximo nível. Essa equipe tem conhecimento no *vespeiro* que irão lidar, dominam gotcha's e possuem o contexto implícito do software chumbados em seus cérebros. Essa é a única realidade que eu vejo que refatoração oportunistica pode ser avaliado como uma abordagem melhor que as outras duas.
+
+Refatoração a longo prazo é o caminho mais usual, poderia ser até uma planned refactoring, mas quando uma equipe possui pouco ou nenhum conhecimento da base de dados, fica difícil conseguir segmentar em refatorações planejadas, o risco é alto de virar refatoração a longo prazo. 
 
 * 1o passo é focar testes de unidade no core do sistema.
 * 2o passo no caminho principal da aplicação.
-* 3o camminhos de borda/periférico.
+* 3o caminhos de borda/periférico.
 
 Focar testes automatizados em abrangência e não em detalhes.
 Aumentar a suite de testes ao quebrar os grandes testes de unidade e especializá-los, com suporte de novos testes para outros galhos especialistas.
 
 Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refatorações, haverá muita aprendizagem nessa jornada e não faça BDUF, não no inicio pelo menos.
 
+--- 
 
 ### Módulos altamente acoplados
 
