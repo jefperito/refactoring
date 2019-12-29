@@ -188,6 +188,8 @@ O valor existe então ir para a segunda ação, pensar em qual linha de refatora
 * Refatoração planejada (planned refactoring).
 * Refatoração a longo prazo (long-term refactoring).
 
+Em minha opinião entraria 1 variável para a decisão se tomar para refatoração oportunistica: domínio do sistema. Equipes que possuem o conhecimento do sistema costumam serem os mesmo que o desenvolvem, a decisão de refatorar nesse quesito certamente é uma mudança de paradigma em nível técnico ou cultura da empresa, que agora desejam colocar o software num próximo nível. Essa é a única realidade que eu vejo que refatoração oportunistica pode ser avaliado como uma abordagem melhor que as outras duas.
+
 * 1o passo é focar testes de unidade no core do sistema.
 * 2o passo no caminho principal da aplicação.
 * 3o camminhos de borda/periférico.
