@@ -180,6 +180,14 @@ Clean code não é só aplicado em refatoração mas em qualquer etapa do desenv
 
 A origem de software big ball of mud pode ter diversas fontes: Nível técnico da equipe baixo, pressão, processos de desenvolvimento baixo. Não deve-se julgar as pessoas responsáveis por aquele código, apenas vivendo a época para sentir a cultura da empresa e habilidades dos profissionais para entender como chegou naquele resultado. Gastar energias ofendendo os pais da equipe que gerou não irá deixar o código limpo e livre de bugs, refatoração sim, é a maneira de lidar com o problema.
 
+A primeira ação seria checar se realmente há necessidade de refatorá-lo, se o software apesar de problemático, roda há muito tempo com estabilidade e não tem planejamento para evoluí-lo, não haverá valor ou muito pouco sobre o investimento caso encontre um ou dois bugs que o cliente cairia em uma conbinação muito difícil digna a ganhar na loteria, 
+
+O valor existe então ir para a segunda ação, pensar em qual linha de refatoração irá seguir:
+
+* Refatoração oportunistica (Litter-Pickup Refactoring + comprehension refatoring), 
+* Refatoração planejada (planned refactoring).
+* Refatoração a longo prazo (long-term refactoring).
+
 * 1o passo é focar testes de unidade no core do sistema.
 * 2o passo no caminho principal da aplicação.
 * 3o camminhos de borda/periférico.
