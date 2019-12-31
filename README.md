@@ -10,7 +10,8 @@ Sinta-se livre para contribuir com esse material.
 * [Requisitos para refatorar](#requisitos-para-refatorar)
 * [Antes de refatorar](#antes-de-refatorar)
 * [Dia-a-dia](#dia-a-dia)
-* [Ferramentas de apoio a refatoração](#ferramentas-de-apoio-a-refatoração)
+* [Estratégia de refatoração](#estratégia-de-refatoração)
+* [Apoio a refatoração](#apoio-a-refatoração)
 
 ## O que é refatoração
 
@@ -151,21 +152,6 @@ No dia-a-dia, resolvendo tarefas recorrentes podemos cair em código que não co
 * Revisão de código.
 * Programação pareada.
 
-## Ferramentas de apoio a refatoração
-
-### Medições de código
-
-* Dependência entre estruturas.
-  * Design structure matrix (DSM).
-  * "Martin’s metrics".
-
-* Complexidade de algoritmo.
-  * Cyclomatic complexity. (Grau de complexidade)
-  * Cognitive Complexity. (Grau de dificuldade de ler e entender o código)
-  
-* Code smell
-   * Code churn
-
 ## Estratégia de refatoração
 
 Estratégias adotadas para problemas recorrentes, seguindo por um problema definido e técnicas para resolvê-lo, porém existe algumas técnicas "genéricas" que pode/deve ser aplicada para qualquer tipo de problemas como:
@@ -225,6 +211,21 @@ No caso de feature envy o problema é parecido, é possível identificar quando 
  
 A solução costuma ser simples, para resolver esses problemas basta mover ou criar métodos para as classes que deve ser responsável pela lógica.
 
+## Apoio a refatoração
+
+### Medições de código
+
+* Dependência entre estruturas.
+  * Design structure matrix (DSM).
+  * "Martin’s metrics".
+
+* Complexidade de algoritmo.
+  * Cyclomatic complexity. (Grau de complexidade)
+  * Cognitive Complexity. (Grau de dificuldade de ler e entender o código)
+  
+* Code smell
+   * Code churn
+   
 ---
 
 ## Bibliografia
