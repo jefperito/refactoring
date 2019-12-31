@@ -1,7 +1,7 @@
 # Refactoring
 
 Esse é um material resultante de uma compilação de minhas experiências sobre refactoring, além de livros, apresentações e blogs de gurus da área de desenvolvimento como [Sandro Mancuso](https://twitter.com/sandromancuso), [Uncle Bob Martin](https://twitter.com/unclebobmartin), [Martin Fowler](https://twitter.com/martinfowler), [Elliotte Harold](https://twitter.com/elharo) e [Michael Feathers](https://twitter.com/mfeathers) sobre o mesmo tema.
-O objetivo é mapear técnicas para lidar em todos os estágios da refatoração, desde antes de começar a refatorar, até a etapa pós entrega do código. Não é a missão de explorar profundamente as técnicas definidas aqui, nem ser uma receita de bolo para lidar com código legado, existem materiais que serão linkados que fazem com muito mais detalhamento, julgo que este documento ajudará a quem está iniciando e deseja conhecer de uma maneira geral.
+O objetivo é mapear técnicas para lidar em todos os estágios da refatoração, desde antes de começar a refatorar, até a etapa pós entrega do código. Não é a missão de explorar profundamente as técnicas definidas aqui, nem ser uma receita de bolo para lidar com código legado, existem materiais que serão linkados que fazem com muito mais detalhamento.
 Sinta-se livre para contribuir com esse material.
 
 * [O que é refatoração](#o-que-é-refatoração)
@@ -10,7 +10,7 @@ Sinta-se livre para contribuir com esse material.
 * [Requisitos para refatorar](#requisitos-para-refatorar)
 * [Antes de refatorar](#antes-de-refatorar)
 * [Dia-a-dia](#dia-a-dia)
-
+* [Ferramentas de apoio a refatoração](#ferramentas-de-apoio-a-refatoração)
 
 ## O que é refatoração
 
@@ -151,6 +151,8 @@ No dia-a-dia, resolvendo tarefas recorrentes podemos cair em código que não co
 * Revisão de código.
 * Programação pareada.
 
+## Ferramentas de apoio a refatoração
+
 ### Medições de código
 
 * Dependência entre estruturas.
@@ -163,11 +165,6 @@ No dia-a-dia, resolvendo tarefas recorrentes podemos cair em código que não co
   
 * Code smell
    * Code churn
-
-
-## Níveis de refatoração (Rever isso)
-
-O ideal é que refatoração seja sempre feito de maneira **pequena**/**média**, mesmo em grandes pedaços de código ruim ou arquitetura antiquada, usando técnica de *baby steps* como é feito no TDD. O código chegará no grau esperado através do tem po que aquela estrutura é visitada por um programador. Isso também é conhecido como **Regra do escoteiro** que diz que: *Deixe o local que visitou um pouco melhor que o encontrou*.
 
 ## Estratégia de refatoração
 
