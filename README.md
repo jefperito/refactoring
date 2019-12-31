@@ -12,6 +12,7 @@ Sinta-se livre para contribuir com esse material.
 * [Dia-a-dia](#dia-a-dia)
 * [Estratégia de refatoração](#estratégia-de-refatoração)
 * [Apoio a refatoração](#apoio-a-refatoração)
+* [Manutenção e pós refatoração](#Manutenção-e-pós-refatoração)
 
 ## O que é refatoração
 
@@ -226,7 +227,7 @@ A solução costuma ser simples, para resolver esses problemas basta mover ou cr
 * Code smell
    * Code churn
    
----
+## Manutenção e pós refatoração
 
 ## Bibliografia
 
@@ -247,6 +248,7 @@ A solução costuma ser simples, para resolver esses problemas basta mover ou cr
 * Feature toggle (talvez não precise, apenas para novas funcionalidades e reescrita).
 * Log de acesso (talvez não precise, apenas para monitoramento).
 
+---
 
 ### Exemplos de baixo nível (Abordar?)
 * Extração de método.
