@@ -185,8 +185,6 @@ Aumentar a suite de testes ao quebrar os grandes testes de unidade e especializ�
 
 Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refatorações, haverá muita aprendizagem nessa jornada e não faça BDUF, não no inicio pelo menos.
 
---- 
-
 ### Módulos altamente acoplados
 
 * Façade
@@ -247,8 +245,6 @@ A solução costuma ser simples, para resolver esses problemas basta mover ou cr
 
 * Feature toggle (talvez não precise, apenas para novas funcionalidades e reescrita).
 * Log de acesso (talvez não precise, apenas para monitoramento).
-
----
 
 ### Exemplos de baixo nível (Abordar?)
 * Extração de método.
