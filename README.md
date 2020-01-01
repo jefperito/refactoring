@@ -152,8 +152,9 @@ No dia-a-dia, resolvendo tarefas recorrentes podemos cair em código que não co
 
 ![opportunistic refactoring](opportunistic_refactoring.png)
 
-* Revisão de código.
-* Programação pareada.
+### Revisão de código e programação pareada.
+
+Como em desenvolvimento de funcionalidade, refatoração também ganha o benefício de um segundo desenvolvedor revisar e discutir a solução proposta. Grandes evoluções podem emergir de uma troca de idéias e propostas de melhoria, é altamente recomendável passar por programação pareada ou revisão de código.
 
 ## Estratégia de refatoração
 
