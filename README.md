@@ -242,20 +242,3 @@ A solução costuma ser simples, para resolver esses problemas basta mover ou cr
 * Refactoring: Improving the Design of Existing Code (2nd Edition) - Martin Fowler
 * Clean code - Robert C. Martin (Uncle Bob)
 * The Software Craftsman: Professionalism, Pragmatism, Pride - Sandro Mancuso
-
----
-
-* Feature toggle (talvez não precise, apenas para novas funcionalidades e reescrita).
-* Log de acesso (talvez não precise, apenas para monitoramento).
-
-### Exemplos de baixo nível (Abordar?)
-* Extração de método.
-* Extração constante.
-* Extração de classe.
-* Extração de variável.
-* Obsessão por tipos primitivos.
-
-Fazer em 3 grandes blocos: 
-* antes de refatorar
-* durante a refatoração
-* limpeza e manutenção
