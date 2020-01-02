@@ -212,6 +212,7 @@ Trago algumas técnicas genéricas que auxiliam na diminuição da complexidade:
 * Imutabilidade.
 * Renaming.
 * Encapsulamento.
+* Eliminação da duplicidade.
 
 ### Feature envy/Entidades anêmicas
 
