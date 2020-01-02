@@ -191,7 +191,7 @@ Uma boa estratégia é:
 * Com uma boa abordagem passe para bordas/periféricos.
 * Focar testes automatizados em abrangência e não em detalhes.
 * Aumentar a suite de testes ao quebrar os grandes testes de unidade e especializá-los, com suporte de novos testes para outros galhos especialistas.
-* Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refatorações, haverá muita aprendizagem nessa jornada e não faça BDUF, não no inicio pelo menos.
+* Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refatorações, haverá muita aprendizagem nessa jornada e não faça BDUF.
 
 ### Módulos altamente acoplados
 
