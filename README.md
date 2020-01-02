@@ -98,8 +98,6 @@ Não avisamos o gestor as estratégias que tomamos em usar algum design pattern 
 
 ## Antes de refatorar
 
-* Na refatoração de método, ir no galho mais profundo pois precisa menos contexto e ir subindo. em outros casos pode precisar ler o método completo.
-
 Análise estática para gerar insights.
 Equipes que tem baixa experiência podem focar em atingir metas quantificativas (obtidos através de ferramentas que geram métricas como violação de regras e padrões), essas mesmas ferramentas apoiam a equipe na evolução sendo um guia para um melhor software. Metas qualificativas como muitas técnicas do clean code, possui um grau de complexidade maior de análise, ferramentas tem maior dificuldade em suportar e precisa um pouco mais de experiência do desenvolvedor em código limpo e a capacidade de fazer trade offs em decisões que serão tomadas.
 
