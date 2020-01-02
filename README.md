@@ -1,6 +1,6 @@
 # Refactoring
 
-**Isso é um rascunho, não é a versão final.**
+**Isso é um rascunho, não é a versão final. Alguns pontos pode estar com baixa coerência e poucos explorados, necessitam de melhor revisão**
 
 Esse é um material resultante de uma compilação de minhas experiências sobre refactoring, além de livros, apresentações e blogs de gurus da área de desenvolvimento como [Sandro Mancuso](https://twitter.com/sandromancuso), [Uncle Bob Martin](https://twitter.com/unclebobmartin), [Martin Fowler](https://twitter.com/martinfowler), [Elliotte Harold](https://twitter.com/elharo) e [Michael Feathers](https://twitter.com/mfeathers) sobre o mesmo tema.
 O objetivo é mapear técnicas para lidar em todos os estágios da refatoração, desde antes de começar a refatorar, até a etapa pós entrega do código. Não é a missão de explorar profundamente as técnicas definidas aqui, nem ser uma receita de bolo para lidar com código legado, existem materiais que serão linkados que fazem com muito mais detalhamento.
