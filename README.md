@@ -28,6 +28,7 @@ Alguns pontos sobre os benefícios de refatorar:
 * Design simples e elegante.
 * Tempo para focar em produto e não em bugs.
 * Agilidade no entendimento do código.
+* Agilidade em adicioonar novas funcionalidades.
 
 As vantagens são realmente muito atraentes, os pontos acima nos dá velocidade de resposta, facilidade na leitura devido a expressividade do código fonte, tempo para experimentar novas soluções e paz de espírito. 
 Mas nada supera uma palavra: economia. Quer ir rápido sendo barato? código legível, clientes pagando por lentidão em adicionar funcionalidade, criação de bugs ou cliente pagando realmente por novas funcionalidades? Equipes resolvendo pilhas e mais pilhas de bugs ou gastando esforços em evolução da arquitetura e funcionalidades?
