@@ -184,14 +184,14 @@ Em minha opinião entraria 1 variável para a decisão se tomar para refatoraç�
 
 Refatoração a longo prazo é o caminho mais usual, poderia ser até uma planned refactoring, mas quando uma equipe possui pouco ou nenhum conhecimento da base de dados, fica difícil conseguir segmentar em refatorações planejadas, o risco é alto de virar refatoração a longo prazo. 
 
-* 1o passo é focar testes de unidade no core do sistema.
-* 2o passo no caminho principal da aplicação.
-* 3o caminhos de borda/periférico.
+Uma boa estratégia é:
 
-Focar testes automatizados em abrangência e não em detalhes.
-Aumentar a suite de testes ao quebrar os grandes testes de unidade e especializá-los, com suporte de novos testes para outros galhos especialistas.
-
-Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refatorações, haverá muita aprendizagem nessa jornada e não faça BDUF, não no inicio pelo menos.
+* Focar testes de unidade no core do sistema.
+* Mire no caminho principal da aplicação.
+* Com uma boa abordagem passe para bordas/periféricos.
+* Focar testes automatizados em abrangência e não em detalhes.
+* Aumentar a suite de testes ao quebrar os grandes testes de unidade e especializá-los, com suporte de novos testes para outros galhos especialistas.
+* Comece pequeno, não abrace o mundo. Escreva um teste por vez e pequenas refatorações, haverá muita aprendizagem nessa jornada e não faça BDUF, não no inicio pelo menos.
 
 ### Módulos altamente acoplados
 
