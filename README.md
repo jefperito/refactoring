@@ -164,6 +164,11 @@ Estratégias adotadas para problemas recorrentes, seguindo por um problema defin
 
 Clean code não é só aplicado em refatoração mas em qualquer etapa do desenvolvimento do código fonte, Uncle bob reuniu um conjunto de boas práticas na escrita de código no livro Clean Code, que a propósito deve ser lido por todos os desenvolvedores.
 
+### Métodos complexos
+
+Na refatoração de método, ir no galho mais profundo pois precisa menos contexto, ao terminar de refotar, checar qual o galho mais profundo que restou e esse ciclo se fecha criando pequenos contextos para cada teste de unidade (Comprehension Refactoring), com o fim da refatoração teremos diversos métodos menores expondo sua intenção melhorando o entendimento, no final com toda a carga de conhecimento adquirido sobre o produto durante a refatoração, pode-se fazer uma segunda rodada de refatoração aplicando comprehension refactoring sobre o código recém refatorado. 
+Outro tipo de abordagem irá precisar de entender mais a  em outros casos pode precisar ler o método completo e provavelmente será mais complexo em refatorar.
+
 ### Software totalmente legado
 
 A origem de software big ball of mud pode ter diversas fontes: Nível técnico da equipe baixo, pressão, processos de desenvolvimento baixo. Não deve-se julgar as pessoas responsáveis por aquele código, apenas vivendo a época para sentir a cultura da empresa e habilidades dos profissionais para entender como chegou naquele resultado. Gastar energias ofendendo os pais da equipe que gerou não irá deixar o código limpo e livre de bugs, refatoração sim, é a maneira de lidar com o problema.
