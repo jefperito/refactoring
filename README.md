@@ -200,9 +200,17 @@ Estrangulamento, ou como já ouvi alguns dizendo morte por inanição para o mes
 
 Caso seja uma reescrita, é possível manter as duas versões rodando em paralelo, intercambeando entre as versões em tempo de execução através de feature toggle, assim, poderá executar testes manuais e executar em cliente com alguma garantia de caso apareça algo inesperado, troque a chave para a utilização do módulo antigo.
 
-### Complexidade de classes
+### Complexidade
 
-* SOLID.
+Um excelente livro que apresenta literalmente dezenas de técnicas de refatoração é o Refactoring: improving the design of existing code (2nd edition) do Martin Fowler, considero um livro que precisa estar na mesa do desenvolvedor que lida com código legado e refatorações, existem muitas receitas para problemas cotidianos. Consiga esse livro para ontém e aproveite todo o conhecimento reunido para atacar a complexidade do seu código.
+
+Trago algumas técnicas genéricas que auxiliam na diminuição da complexidade:
+
+* Single responsability principle.
+* APIs simples.
+* Imutabilidade.
+* Renaming.
+* Encapsulamento.
 
 ### Feature envy/Entidades anêmicas
 
