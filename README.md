@@ -235,7 +235,7 @@ A solução costuma ser simples, para resolver esses problemas basta mover ou cr
 
 * **Complexidade de algoritmo.**
   
-  * Cyclomatic complexity. (Grau de complexidade)
+  * Cyclomatic complexity. (Grau de caminhos que um fluxo pode seguir)
   
 Complexidade ciclomática é quantidade de caminhos que o fluxo de um algoritmo pode tomar, é diretamente proporcional pela quantidade de controladores de fluxo o código-fonte possui, quanto mais condições por exemplo, maior é a sua complexidade. Muito útil para identificar a complexidade para montar teste de unidade e a noção de quantidade de testes de unidade para cobrir suas regras.
 
