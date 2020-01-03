@@ -240,7 +240,12 @@ A solução costuma ser simples, para resolver esses problemas basta mover ou cr
 Complexidade ciclomática é quantidade de caminhos que o fluxo de um algoritmo pode tomar, é diretamente proporcional pela quantidade de controladores de fluxo o código-fonte possui, quanto mais condições por exemplo, maior é a sua complexidade. Muito útil para identificar a complexidade para montar teste de unidade e a noção de quantidade de testes de unidade para cobrir suas regras.
 
   * Cognitive Complexity. (Grau de dificuldade de ler e entender o código)
-Anos atrás complexidade ciclomática também era utilizado para como um valor quantitativo para apresentar grau de legibilidade de um código, o problema que ela possui alguns problemas (discutir um pouco sobre isso e trazer os exemplos do artigo original).
+Anos atrás complexidade ciclomática também era utilizado para como um valor quantitativo para apresentar grau de legibilidade de um código, o problema que ela possui alguns problemas, confira os dois algoritmos abaixo que foi apresentado no [artigo](https://www.sonarsource.com/docs/CognitiveComplexity.pdf) escrito pela G. Ann Campbell:
+
+![cognitive vs complexity](cognitive_vs_cyclomatic.png)
+
+O valor da complexidade ciclomática dos dois é o mesmo: 4, mas o que possui o switch tem uma legibilidade muito maior que o outro.
+(Explicar como funciona Cognitive Complexity)
 
 * Code smell
    * Code churn
