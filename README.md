@@ -260,3 +260,6 @@ Anos atrás complexidade ciclomática também era utilizado para como um valor q
 * Refactoring: Improving the Design of Existing Code (2nd Edition) - Martin Fowler
 * Clean code - Robert C. Martin (Uncle Bob)
 * The Software Craftsman: Professionalism, Pragmatism, Pride - Sandro Mancuso
+
+### Artigos
+* [Cognitive Complexity - A new way of measuring understandability (2018) -  G Ann Campbell](https://www.sonarsource.com/docs/CognitiveComplexity.pdf)
