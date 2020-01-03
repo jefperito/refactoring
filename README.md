@@ -233,10 +233,15 @@ A solução costuma ser simples, para resolver esses problemas basta mover ou cr
   * Design structure matrix (DSM).
   * "Martin’s metrics".
 
-* Complexidade de algoritmo.
-  * Cyclomatic complexity. (Grau de complexidade)
-  * Cognitive Complexity. (Grau de dificuldade de ler e entender o código)
+* **Complexidade de algoritmo.**
   
+  * Cyclomatic complexity. (Grau de complexidade)
+  
+Complexidade ciclomática é quantidade de caminhos que o fluxo de um algoritmo pode tomar, é diretamente proporcional pela quantidade de controladores de fluxo o código-fonte possui, quanto mais condições por exemplo, maior é a sua complexidade. Muito útil para identificar a complexidade para montar teste de unidade e a noção de quantidade de testes de unidade para cobrir suas regras.
+
+  * Cognitive Complexity. (Grau de dificuldade de ler e entender o código)
+Anos atrás complexidade ciclomática também era utilizado para como um valor quantitativo para apresentar grau de legibilidade de um código, o problema que ela possui alguns problemas (discutir um pouco sobre isso e trazer os exemplos do artigo original).
+
 * Code smell
    * Code churn
    
