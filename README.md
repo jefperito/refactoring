@@ -245,7 +245,7 @@ Anos atrás complexidade ciclomática também era utilizado para como um valor q
 ![cognitive vs complexity](cognitive_vs_cyclomatic.png)
 
 O valor da complexidade ciclomática dos dois é o mesmo: 4, mas o que possui o switch tem uma legibilidade muito maior que o outro.
-(Explicar como funciona Cognitive Complexity)
+A pontuação ignora "shorthands" e marca apenas um ponto para casos de switch que é segundo o artigo é mais simples de entender que estruturas do tipo if-else.
 
 * Code smell
    * Code churn
