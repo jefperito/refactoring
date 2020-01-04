@@ -250,7 +250,7 @@ A pontuação ignora "shorthands" e marca apenas um ponto para casos de switch q
 * Code smell
    * Code churn
    
-Rotatividade de código é a quantidade de modificações que um arquivo sofreu, utilizando uma ferramenta de versionamento de código, é facilmente obtido pela quantidade de commits um arquivo recebeu.
+Rotatividade de código é a quantidade de modificações que um arquivo sofreu, utilizando uma ferramenta de versionamento de código, é facilmente obtido pela quantidade de commits que um arquivo recebeu. Podemos fazer uma relação entre complexidade VS churn e plotar em um gráfico, arquivos que possui um grande churn e uma grande complexidade pode ser lido como um problema que tem que ser atacado o mais breve possível, pois é um grande buraco negro que puxa toda a energia dos desenvolvedores para si.
 
 ## Manutenção e pós refatoração
 
