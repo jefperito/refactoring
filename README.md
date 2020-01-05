@@ -231,7 +231,7 @@ A solução costuma ser simples, para resolver esses problemas basta mover ou cr
 
 * Dependência entre estruturas.
   * Design structure matrix (DSM).
-  * "Martin’s metrics".
+  * Software package metrics (Martin’s metrics).
 
 * **Complexidade de algoritmo.**
   
