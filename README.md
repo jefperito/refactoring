@@ -240,7 +240,7 @@ Definido pelo Uncle Bob no seu livro *Agile software development: principles, pa
 * *Acoplamento aferente*: Quantidade de classes em outros pacotes que as classes do pacote dependem.
 * *Abstração*: Percentual de classes abstratas do pacote, 0 para todas as classes são concretas e 1 para todas as classes são abstratas (mostrar fórmula).
 * *Instabilidade*: Valor entre 0 e 1 para a chance de sofrer do pacote sofrer modificações. 1 para muito instável e 0 muito estável (mostrar fórmula e definir melhor).
-* *Distância da sequência principal*: O quão distante está da sequência principal, ela é definida pela relação entre abstração e instabilidade. Um pacote é totalmente abstrato ou totalmente instável, na melhor das hipóteses. Pacotes com alta abstração e alta instabilidade são virtualmente impossível de impactar no projeto pois são compostas por classes abstratas que não possuem dependência.
+* *Distância da sequência principal*: O quão distante está da sequência principal, ela é definida pela relação entre abstração e instabilidade. Essa sequência principal é o equilibrio entre abstração e instabilidade que seria a linha ideal. Pacotes com alta abstração e alta instabilidade são virtualmente impossível de impactar no projeto pois são compostas por classes abstratas que não possuem dependência.
 Por outro lado temos os pacotes com abstração pequena e bastante estável. As classes que pertencem a esse grupo são estáveis e concretas. Por serem estáveis há problemas em modificá-las e não podem ser estendidas porque não são abstratas.
 
 * **Complexidade de algoritmo.**
