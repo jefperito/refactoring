@@ -231,11 +231,20 @@ A solução costuma ser simples, para resolver esses problemas basta mover ou cr
 
 * Dependência entre estruturas.
   * Design structure matrix (DSM).
+
   * Software package metrics (Martin’s metrics).
+  
+Definido pelo Uncle Bob no seu livro *Agile software development: principles, patterns, and practices*, apresenta uma maneira de metrificar o grau de dependência entre pacotes de software, esse grau é definido por alguns componentes como:
+
+* *Acoplamento eferente*: Quantidade de classes em outros pacotes que dependem das classes do pacote.
+* *Acoplamento aferente*: Quantidade de classes em outros pacotes que as classes do pacote dependem.
+* *Abstração*: Percentual de classes abstratas do pacote, 0 para todas as classes são concretas e 1 para todas as classes são abstratas (mostrar fórmula).
+* *Instabilidade*: Valor entre 0 e 1 para a chance de sofrer do pacote sofrer modificações. 1 para muito instável e 0 muito estável (mostrar fórmula).
+* Distância da sequência principal.
 
 * **Complexidade de algoritmo.**
   
-  * Cyclomatic complexity. (Grau de caminhos que um fluxo pode seguir)
+  * Cyclomatic complexity. (Grau de caminhos que um fluxo pode seguir).
   
 Complexidade ciclomática é quantidade de caminhos que o fluxo de um algoritmo pode tomar, é diretamente proporcional pela quantidade de controladores de fluxo o código-fonte possui, quanto mais condições por exemplo, maior é a sua complexidade. Muito útil para identificar a complexidade para montar teste de unidade e a noção de quantidade de testes de unidade para cobrir suas regras.
 
