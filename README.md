@@ -232,7 +232,9 @@ A solução costuma ser simples, para resolver esses problemas basta mover ou cr
 * Dependência entre estruturas.
   * Design structure matrix (DSM).
   
-Através de uma matriz é possível apresentar as dependências dos componentes de um software de maneira compacta, ela é conhecida como DSM. Disposta pelos componentes de software espalhados na horizontal e na vertical, criando n x m células, essas células representam dependências que são quantificadas, o valor significa a quantidade de referência ao componente, expondo alem de dependências, dependências cíclicas. (Explicar mais e colocar imagem)
+Através de uma matriz é possível apresentar as dependências dos componentes de um software de maneira compacta, ela é conhecida como DSM. Disposta pelos componentes de software espalhados na horizontal e na vertical, criando n x m células, essas células representam dependências que são quantificadas, o valor significa a quantidade de referência ao componente, expondo alem de dependências, dependências cíclicas. (Explicar mais e colocar imagem).
+
+A ferramenta sonar possui uma ótima explicação detalhada neste [link](https://docs.sonarqube.org/display/SONARQUBE45/Cycles+-+Dependency+Structure+Matrix) de como realizar a leitura dessa métrica.
 
   * Software package metrics (Martin’s metrics).
   
