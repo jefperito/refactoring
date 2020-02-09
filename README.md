@@ -269,6 +269,8 @@ Se aquelas modificações foram de adição de funcionalidade, pode ser um probl
 
 ## Manutenção e pós refatoração
 
+Parabéns as pessoas que conseguiram recuperar um software que estava em condições severas, limparam e o organizaram, a dívida técnica agora é mínima e todos conseguem usufruir do trabalho árduo, que não é pequeno, possuiu diversos altos e baixos e muito aprendizado. Mas lembre-se que o mais importante de zerar totalmente a dívida técnica, é tê-la no controle, com integração contínua, práticas ágeis e regra do escoteiro, sempre deixando o código melhor do que quando o visitou.
+
 ## Bibliografia
 
 ### Vídeos
