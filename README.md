@@ -169,7 +169,7 @@ Outro tipo de abordagem irá precisar de entender mais a  em outros casos pode p
 
 ### Software totalmente legado
 
-A origem de software big ball of mud pode ter diversas fontes: Nível técnico da equipe baixo, pressão, processos de desenvolvimento baixo. Não deve-se julgar as pessoas responsáveis por aquele código, apenas vivendo a época para sentir a cultura da empresa e habilidades dos profissionais para entender como chegou naquele resultado. Gastar energias ofendendo os pais da equipe que gerou não irá deixar o código limpo e livre de bugs, refatoração sim, é a maneira de lidar com o problema.
+A origem de software big ball of mud pode ter diversas fontes: Nível técnico da equipe baixo, pressão, processos de desenvolvimento fraco. Não deve-se julgar as pessoas responsáveis por aquele código, apenas vivendo a época para sentir a cultura da empresa e habilidades dos profissionais para entender como chegou naquele resultado. Gastar energia ofendendo os pais da equipe que gerou não irá deixar o código limpo e livre de bugs, refatorando para simplificar, expor sua intenção e mantendo fácil de ler, é a maneira de lidar com o problema.
 
 A primeira ação seria checar se realmente há necessidade de refatorá-lo, se o software apesar de problemático, roda há muito tempo com estabilidade e não tem planejamento para evoluí-lo, não haverá valor ou muito pouco sobre o investimento caso encontre um ou dois bugs que o cliente cairia em uma conbinação muito difícil digna a ganhar na loteria, 
 
