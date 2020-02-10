@@ -162,6 +162,10 @@ Estratégias adotadas para problemas recorrentes, seguindo por um problema defin
 
 Clean code não é só aplicado em refatoração mas em qualquer etapa do desenvolvimento do código fonte, Uncle bob reuniu um conjunto de boas práticas na escrita de código no livro Clean Code, que a propósito deve ser lido por todos os desenvolvedores.
 
+### Código sem testes
+
+Como Michael Feathers prega no seu livro Working Effectively with Legacy Code, código sem testes automatizados é código legado, o código que não possui testes, deve ter seus testes escritos, antes de alterar uma linha de código. Não existe uma refatoração segura sem automação, em quantidade de código que forem razoavelmente a adição de cobertura de testes, recomendo em criar um commit separando entre adicionar testes e refatorar, permitindo checar a evolução do código através do histórico, e em casos extremos, reverter o arquivo para o estado antes da refatoração.
+
 ### Métodos complexos
 
 Na refatoração de método, ir no galho mais profundo pois precisa menos contexto, ao terminar de refotar, checar qual o galho mais profundo que restou e esse ciclo se fecha criando pequenos contextos para cada teste de unidade (Comprehension Refactoring), com o fim da refatoração teremos diversos métodos menores expondo sua intenção melhorando o entendimento, no final com toda a carga de conhecimento adquirido sobre o produto durante a refatoração, pode-se fazer uma segunda rodada de refatoração aplicando comprehension refactoring sobre o código recém refatorado. 
