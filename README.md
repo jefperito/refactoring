@@ -164,7 +164,7 @@ Clean code não é só aplicado em refatoração mas em qualquer etapa do desenv
 
 ### Código sem testes
 
-Como Michael Feathers prega no seu livro Working Effectively with Legacy Code, código sem testes automatizados é código legado, o código que não possui testes, deve ter seus testes escritos, antes de alterar uma linha de código. Não existe uma refatoração segura sem automação, em quantidade de código que forem razoavelmente a adição de cobertura de testes, recomendo em criar um commit separando entre adicionar testes e refatorar, permitindo checar a evolução do código através do histórico, e em casos extremos, reverter o arquivo para o estado antes da refatoração.
+Como Michael Feathers prega no seu livro Working Effectively with Legacy Code, código sem testes automatizados é código legado, o código que não possui testes, deve ter seus testes escritos antes de alterar uma linha de código. Não existe uma refatoração segura sem automação, Durante a refatoração Quando o código for razoavelmente grande para criar seu teste, recomendo criar um commit separando entre adicionar testes e refatorar, permitindo checar a evolução do código através do histórico, e em casos extremos, reverter o arquivo para o estado antes da refatoração.
 
 ### Métodos complexos
 
