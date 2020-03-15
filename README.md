@@ -182,7 +182,9 @@ O valor existe então ir para a segunda ação, pensar em qual linha de refatora
 * Refatoração oportunistica (Litter-Pickup Refactoring + comprehension refatoring), 
 * Refatoração a longo prazo (long-term refactoring).
 
-Em minha opinião entraria 1 variável para a decisão se tomar para refatoração oportunistica: domínio do sistema. Equipes que possuem o conhecimento do sistema costumam serem os mesmo que o desenvolvem, a decisão de refatorar nesse quesito certamente é uma mudança de paradigma em nível técnico ou cultura da empresa, que agora desejam colocar o software num próximo nível. Essa equipe tem conhecimento no *vespeiro* que irão lidar, dominam gotcha's e possuem o contexto implícito do software chumbados em seus cérebros. Essa é a única realidade que eu vejo que refatoração oportunistica pode ser avaliado como uma abordagem melhor que as outras duas.
+Em minha opinião entraria 1 variável para a decisão se tomar para refatoração oportunistica: domínio do sistema. Equipes que possuem o conhecimento do sistema costumam serem os mesmo que o desenvolvem, a decisão de refatorar nesse quesito certamente é uma mudança de paradigma em nível técnico ou cultura da empresa, que agora desejam colocar o software num próximo nível. Essa equipe tem conhecimento no *vespeiro* que irão lidar, dominam gotcha's e possuem o contexto implícito do software chumbados em seus cérebros. Essa é a única realidade que eu vejo que refatoração oportunistica pode ser avaliado como uma abordagem melhor que refatoração a longo prazo.
+
+Ela começa ser menos ideal quando é uma enorme massa de código deteriorado no qual oportunismo de refatoração não trará resultados sensível a médio prazo. O software sangra em forma de bugs e reescrever partes do sistema (quando não inteiro) começa a ser idéia de alguns desenvolvedores. Enquanto a refatoração oportunistica não precisa de alinhamento com gestão e pessoal de produto, por fazer parte do dia-a-dia do desenvolvedor. Escolher refatoração a longo prazo é uma decisão que precisa do apoio da empresa.
 
 Refatoração a longo prazo é o caminho mais usual, poderia ser até uma planned refactoring, mas quando uma equipe possui pouco ou nenhum conhecimento da base de dados, fica difícil conseguir segmentar em refatorações planejadas, o risco é alto de virar refatoração a longo prazo. 
 
@@ -209,10 +211,8 @@ Caso seja uma reescrita, é possível manter as duas versões rodando em paralel
 
 Módulos altamente acoplados podem ser muito problemáticos, o problema pode ocorrer porque a arquitetura é defeituosa e não atende o software ou a arquitetura está coberta por um monte de código ruim que a sobrecarrega sua estrutura.
 
-Na decisão da mudança da arquitetura, modelos que contribui para isolamento entre módulos, alguns como Event driven architecture, clean architecture ou hexagonal architecture.
+Na decisão da mudança da arquitetura, existem modelos que contribui para isolamento entre módulos, alguns como Event driven architecture, clean architecture ou hexagonal architecture.
 
-
-Façade é uma boa técnica para isolar responsabilidades e complexidade de configuração das bordas, mas temos técnicas 
 
 ### Complexidade
 
